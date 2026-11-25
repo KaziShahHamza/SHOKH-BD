@@ -3,6 +3,7 @@
 > Read this file first in every new chat or subagent session. It is the single source of truth for how this project is designed, architected, and developed.
 
 ## 1. Project Identity
+- **Brand Name:** **SHOKH** (meaning *passion / hobby* — styled as clean uppercase `SHOKH` wordmark).
 - **What:** Local Bangladesh-based minimalist e-commerce store selling **Watches, Glasses, Crocs, T-Shirts, and Hobby Products**.
 - **Design Aesthetic:** Clean Monochrome Minimalist (Uniqlo / COS inspired) — white/off-white surfaces, deep charcoal (`#111111`) primary accent, subtle hairline borders (`#E5E5E5`), semantic colors reserved strictly for stock & order statuses.
 - **Locale & Currency:** English UI, Bangladeshi Taka (**BDT / ৳**), nationwide Bangladesh delivery.

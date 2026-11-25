@@ -83,7 +83,7 @@ type ProductMedia = {
 | Field | Type | Constraints / Notes |
 | :--- | :--- | :--- |
 | `id` | `string` | Primary Key |
-| `orderNumber` | `string` | Unique human-readable code (e.g., `ORD-2026-00412`) |
+| `orderNumber` | `string` | Unique human-readable code (e.g., `SHK-2026-00412`) |
 | `userId` | `string?` | Nullable (Guest Checkout supported), indexed |
 | `customer` | `object` | `{ name, email?, phone }` |
 | `shippingAddress` | `object` | `{ division, district, addressLine, deliveryZone: 'INSIDE_DHAKA' \| 'OUTSIDE_DHAKA', note? }` |

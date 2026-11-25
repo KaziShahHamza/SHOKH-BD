@@ -1,4 +1,4 @@
-# Design System Specification (Synced with Figma)
+# SHOKH — Design System Specification (Synced with Figma)
 
 > **Single Source of Truth:** Every token below mirrors [`design/tokens.json`](../design/tokens.json) and maps 1:1 to our **Figma Variables & Text Styles**.
 > Whenever a style is updated in Figma, update `design/tokens.json` and this file first so the codebase and Figma stay permanently in sync.
@@ -39,7 +39,7 @@
 
 ## 3. Typography (Figma Text Styles)
 - **Primary Font:** `Inter` (loaded via `next/font/google`).
-- **Mono Font:** `JetBrains Mono` (Order IDs like `ORD-2026-00412`, SKUs).
+- **Mono Font:** `JetBrains Mono` (Order IDs like `SHK-2026-00412`, SKUs).
 
 | Figma Style | Size / Line Height | Weight | Tracking | Usage |
 | :--- | :--- | :--- | :--- | :--- |
