@@ -31,6 +31,7 @@
 
 ## 4. Figma-First UI/UX Workflow (Mandatory Rules)
 1. **Desktop + Mobile Always:** Whenever delivering Figma-pasteable code for any page or section, **ALWAYS provide BOTH Desktop (`1440px`) and Mobile (`390px`) views**.
+2. **Native SVG Copy-Paste Format:** Deliver Figma designs as **pure `<svg>...</svg>` code** (no `<foreignObject>`) directly in chat AND saved under `design/figma/*.svg` so the user can copy-paste (`Ctrl + V`) straight onto the Figma Web canvas with zero plugins.
 2. **Design System Sync:** `design/tokens.json` and `docs/design-system.md` are the single source of truth synced 1:1 with the Figma Design System layer (colors, typography, spacing, radii, borders, motion).
    - If the user modifies any color, font, spacing, or component style in Figma and shares back updated PNGs or Tailwind code, **update `design/tokens.json` and `docs/design-system.md` first**, then update affected pages/components.
 3. **Iteration Loop:**
