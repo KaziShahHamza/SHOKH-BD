@@ -16,8 +16,8 @@
 
 | # | Deliverable / Page | Route | Desktop (`1440px`) | Mobile (`390px`) | Status | Notes |
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
-| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | 🟡 | 🟡 | `In Figma` | Synced 1:1 with `design/tokens.json` (`design/figma/00-design-system-*.html`) |
-| 1 | **Landing Page** | `/` | ⬜ | ⬜ | `Pending` | Hero, 5 Categories, Featured, Delivery Strip, Footer |
+| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` (`00-design-system-*.svg`) |
+| 1 | **Landing Page** | `/` | 🟡 | 🟡 | `In Figma` | Hero, 5 Categories, Featured, Delivery Strip, Footer (`01-landing-*.svg`) |
 | 2 | **Products / Catalog Page** | `/products` | ⬜ | ⬜ | `Pending` | Filters, Sort, 4-col Desktop / 2-col Mobile grid |
 | 3 | **Product Detail Page** | `/product/[slug]` | ⬜ | ⬜ | `Pending` | Gallery + YouTube embed, Variants, Stock, COD CTA |
 | 4 | **Cart Drawer, Checkout & Order Tracking** | `/checkout`, `/order/[id]` | ⬜ | ⬜ | `Pending` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee |
