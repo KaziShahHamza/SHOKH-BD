@@ -1,0 +1,203 @@
+<svg width="1440" height="2140" viewBox="0 0 1440 2140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Auth-Account-Desktop-BG" width="1440" height="2140" fill="#FFFFFF"/>
+
+  <!-- 01. GLOBAL DESKTOP NAVBAR -->
+  <g id="01-Navbar">
+    <rect width="1440" height="36" fill="#111111"/>
+    <text x="720" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
+    <rect y="36" width="1440" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
+    <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="486" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
+    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+    <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
+    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1300" cy="68" r="4.5" stroke="#111111" stroke-width="1.5"/>
+    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#111111" stroke-width="1.5"/>
+    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1354" cy="62" r="8" fill="#111111"/>
+    <text x="1354" y="66" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">2</text>
+  </g>
+
+  <!-- 02. AUTH PAGES (LOGIN, SIGNUP, FORGOT PASSWORD) -->
+  <g id="02-Auth-Screens">
+    <text x="80" y="160" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">AUTHENTICATION SCREENS</text>
+    <text x="80" y="192" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">Sign In, Sign Up &amp; Forgot Password</text>
+
+    <!-- Card 1: /login -->
+    <g id="Auth-Login-Card">
+      <rect x="80" y="220" width="400" height="520" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <text x="112" y="268" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="500">Sign In</text>
+      <text x="112" y="292" fill="#525252" font-family="Inter, sans-serif" font-size="13">Access your SHOKH orders &amp; saved BD addresses.</text>
+
+      <!-- Google Button -->
+      <rect x="112" y="318" width="336" height="44" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="280" y="345" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">G   Continue with Google</text>
+
+      <line x1="112" y1="386" x2="254" y2="386" stroke="#E5E5E5"/>
+      <text x="280" y="390" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">OR</text>
+      <line x1="306" y1="386" x2="448" y2="386" stroke="#E5E5E5"/>
+
+      <text x="112" y="420" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Email</text>
+      <rect x="112" y="430" width="336" height="44" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="126" y="457" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">you@example.com</text>
+
+      <text x="112" y="502" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Password</text>
+      <text x="448" y="502" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="12" text-decoration="underline">Forgot password?</text>
+      <rect x="112" y="512" width="336" height="44" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="126" y="539" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">••••••••</text>
+
+      <rect x="112" y="582" width="336" height="44" rx="2" fill="#111111"/>
+      <text x="280" y="609" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Sign In</text>
+
+      <text x="280" y="660" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">New to SHOKH? <tspan fill="#111111" font-weight="500" text-decoration="underline">Create account</tspan></text>
+    </g>
+
+    <!-- Card 2: /signup -->
+    <g id="Auth-Signup-Card">
+      <rect x="520" y="220" width="400" height="520" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <text x="552" y="268" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="500">Create Account</text>
+      <rect x="552" y="294" width="336" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="720" y="320" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">G   Continue with Google</text>
+
+      <text x="552" y="366" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Full Name</text>
+      <rect x="552" y="374" width="336" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="566" y="400" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed</text>
+
+      <text x="552" y="442" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">BD Phone</text>
+      <rect x="552" y="450" width="336" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="566" y="476" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="13">01712345678</text>
+
+      <text x="552" y="518" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Email &amp; Password</text>
+      <rect x="552" y="526" width="336" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+      <text x="566" y="552" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">you@example.com</text>
+
+      <rect x="552" y="582" width="336" height="44" rx="2" fill="#111111"/>
+      <text x="720" y="609" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Create Account</text>
+
+      <text x="720" y="660" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">Already have an account? <tspan fill="#111111" font-weight="500" text-decoration="underline">Sign in</tspan></text>
+    </g>
+
+    <!-- Card 3: /forgot-password -->
+    <g id="Auth-Forgot-Card">
+      <rect x="960" y="220" width="400" height="520" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <text x="992" y="268" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="500">Reset Password</text>
+      <text x="992" y="294" fill="#525252" font-family="Inter, sans-serif" font-size="13">Enter your account email and we will send</text>
+      <text x="992" y="314" fill="#525252" font-family="Inter, sans-serif" font-size="13">a 30-minute secure reset link.</text>
+
+      <text x="992" y="362" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Account Email</text>
+      <rect x="992" y="372" width="336" height="44" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+      <text x="1006" y="399" fill="#111111" font-family="Inter, sans-serif" font-size="13">tanvir@example.com</text>
+
+      <rect x="992" y="440" width="336" height="44" rx="2" fill="#111111"/>
+      <text x="1160" y="467" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Send Reset Link</text>
+
+      <rect x="992" y="512" width="336" height="64" rx="2" fill="#F0FDF4"/>
+      <text x="1012" y="540" fill="#15803D" font-family="Inter, sans-serif" font-size="12" font-weight="500">✓ Reset email sent</text>
+      <text x="1012" y="558" fill="#525252" font-family="Inter, sans-serif" font-size="11">Check your inbox or spam folder.</text>
+
+      <text x="1160" y="660" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500" text-decoration="underline">← Back to Sign In</text>
+    </g>
+  </g>
+
+  <!-- 03. USER ACCOUNT DASHBOARD (/account) -->
+  <g id="03-User-Account" transform="translate(0, 810)">
+    <line x1="80" y1="0" x2="1360" y2="0" stroke="#E5E5E5"/>
+    <text x="80" y="52" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">My Account (/account)</text>
+
+    <!-- Left Sidebar -->
+    <rect x="80" y="80" width="260" height="720" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="104" y="120" fill="#111111" font-family="Inter, sans-serif" font-size="16" font-weight="500">Tanvir Ahmed</text>
+    <text x="104" y="140" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">tanvir@example.com</text>
+    <line x1="104" y1="164" x2="316" y2="164" stroke="#E5E5E5"/>
+
+    <rect x="104" y="184" width="212" height="40" rx="2" fill="#111111"/>
+    <text x="120" y="209" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">Order History (3)</text>
+
+    <text x="120" y="256" fill="#525252" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses (2)</text>
+    <text x="120" y="296" fill="#525252" font-family="Inter, sans-serif" font-size="13">Profile &amp; Password</text>
+    <text x="120" y="346" fill="#B91C1C" font-family="Inter, sans-serif" font-size="13">Sign Out</text>
+
+    <!-- Right Content: Orders + Addresses -->
+    <text x="380" y="102" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Recent Orders</text>
+
+    <!-- Order 1 -->
+    <rect x="380" y="122" width="980" height="84" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="404" y="156" fill="#111111" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">SHK-2026-00412</text>
+    <text x="404" y="180" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">26 Nov 2026 · 2 items · Cash on Delivery</text>
+    <rect x="760" y="148" width="96" height="26" rx="2" fill="#EFF6FF"/>
+    <text x="808" y="165" text-anchor="middle" fill="#1D4ED8" font-family="Inter, sans-serif" font-size="10" font-weight="500">CONFIRMED</text>
+    <text x="1140" y="168" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 3,640</text>
+    <text x="1336" y="168" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Track Order →</text>
+
+    <!-- Order 2 -->
+    <rect x="380" y="220" width="980" height="84" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="404" y="254" fill="#111111" font-family="JetBrains Mono, monospace" font-size="13" font-weight="500">SHK-2026-00389</text>
+    <text x="404" y="278" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">12 Nov 2026 · 1 item · Cash on Delivery</text>
+    <rect x="760" y="246" width="96" height="26" rx="2" fill="#F0FDF4"/>
+    <text x="808" y="263" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">DELIVERED</text>
+    <text x="1140" y="266" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 2,450</text>
+    <text x="1336" y="266" text-anchor="end" fill="#525252" font-family="Inter, sans-serif" font-size="13">View Details</text>
+
+    <!-- Saved BD Addresses -->
+    <text x="380" y="366" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Saved Bangladesh Addresses</text>
+    <rect x="1180" y="340" width="180" height="36" rx="2" fill="#FFFFFF" stroke="#111111"/>
+    <text x="1270" y="363" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">+ Add New Address</text>
+
+    <rect x="380" y="394" width="478" height="148" rx="2" fill="#F7F7F7" stroke="#111111"/>
+    <rect x="404" y="416" width="68" height="22" rx="2" fill="#111111"/>
+    <text x="438" y="431" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">DEFAULT</text>
+    <text x="484" y="432" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Home — Dhaka Metro</text>
+    <text x="404" y="464" fill="#525252" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
+    <text x="404" y="486" fill="#525252" font-family="Inter, sans-serif" font-size="13">House 14, Road 6, Dhanmondi, Dhaka 1205</text>
+    <text x="404" y="518" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Edit  ·  Remove</text>
+
+    <rect x="882" y="394" width="478" height="148" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="906" y="432" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Office — Banani</text>
+    <text x="906" y="464" fill="#525252" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
+    <text x="906" y="486" fill="#525252" font-family="Inter, sans-serif" font-size="13">Road 11, Block F, Banani, Dhaka</text>
+    <text x="906" y="518" fill="#111111" font-family="Inter, sans-serif" font-size="12">Set as Default  ·  Edit</text>
+  </g>
+
+  <!-- 04. GLOBAL DESKTOP FOOTER -->
+  <g id="04-Footer" transform="translate(0, 1740)">
+    <rect width="1440" height="400" fill="#111111"/>
+    <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp;</text>
+    <text x="80" y="128" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">hobby essentials curated for Bangladesh.</text>
+    <text x="80" y="168" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
+    <text x="80" y="190" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
+    <text x="80" y="226" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
+
+    <text x="520" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">SHOP</text>
+    <text x="520" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">All Products</text>
+    <text x="520" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="520" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="520" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Crocs</text>
+    <text x="520" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="520" y="248" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Hobby Products</text>
+
+    <text x="790" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
+    <text x="790" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order</text>
+    <text x="790" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD Rates</text>
+    <text x="790" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">7-Day Easy Exchange</text>
+    <text x="790" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Size &amp; Fit Guide</text>
+    <text x="790" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">FAQ &amp; Contact</text>
+
+    <text x="1080" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">ACCOUNT &amp; PAYMENT</text>
+    <text x="1080" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Sign In / Register</text>
+    <text x="1080" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses</text>
+    <text x="1080" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Order History</text>
+    <rect x="1080" y="190" width="208" height="30" rx="2" fill="#1F1F1F" stroke="#2A2A2A"/>
+    <text x="1184" y="209" text-anchor="middle" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="11">CASH ON DELIVERY (COD)</text>
+    <text x="1080" y="242" fill="#525252" font-family="Inter, sans-serif" font-size="11">bKash · Nagad · Card (Coming Soon)</text>
+
+    <line x1="80" y1="316" x2="1360" y2="316" stroke="#2A2A2A"/>
+    <text x="80" y="356" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh. All rights reserved.</text>
+    <text x="720" y="356" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Privacy Policy  ·  Terms of Service</text>
+    <text x="1360" y="356" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · INSIDE DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
+  </g>
+</svg>
