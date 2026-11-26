@@ -8,7 +8,7 @@
     - *Logged Out:* `Sign In` (`/login`), `Create Account` (`/signup`), `Track Guest Order →` (`/track-order`).
     - *Logged In:* Buyer Name & BD Phone header, `My Orders` (`/account`), `Saved BD Addresses` (`/account/addresses`), `Profile & Password` (`/account/profile`), `Track an Order` (`/track-order`), `Admin Console` (`/admin`, if `ADMIN`), `Sign Out`.
   - Mobile: Hamburger Menu (left), Brand Wordmark (center), Search + Cart Icon (right). Slide-over navigation drawer with categories and the same Account/Guest Track Order links.
-- **Slide-Over Cart Drawer:** Accessible from any page; displays items, variant tags, quantity +/- controls, item removal, subtotal in `৳`, free-shipping progress indicator (if enabled), and `Proceed to Checkout` CTA.
+- **Shopping Cart (`/cart`) & Quick Slide-Over Drawer:** Dedicated `/cart` page with Navbar & Footer (plus quick slide-over bag access); displays items, variant tags, quantity +/- controls, item removal, subtotal in `৳`, free-shipping progress indicator, and `Proceed to Checkout` CTA.
 - **Minimal Footer:** Brand statement, 5 category links, Track Order link, Support contact (Gmail/WhatsApp), Delivery & Return Policy links.
 
 ---
