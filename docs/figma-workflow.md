@@ -25,9 +25,11 @@
 | 5b | **Signup Page** | `/signup` | ✅ | ✅ | `Approved` | Google OAuth + Name, BD Phone, Email, Password (`05b-signup-*.svg`) |
 | 5c | **Forgot Password Page** | `/forgot-password` | ✅ | ✅ | `Approved` | Email reset link request (`05c-forgot-password-*.svg`) |
 | 5d | **Reset Password Page** | `/reset-password` | ✅ | ✅ | `Approved` | New password + confirm form (`05d-reset-password-*.svg`) |
-| 5e | **Account — Orders** | `/account` | 🟡 | 🟡 | `In Figma` | Order History & tracking links (`05e-account-orders-*.svg`) |
-| 5f | **Account — BD Addresses** | `/account/addresses` | 🟡 | 🟡 | `In Figma` | Saved BD addresses + Add/Edit (`05f-account-addresses-*.svg`) |
-| 5g | **Account — Profile** | `/account/profile` | 🟡 | 🟡 | `In Figma` | Personal details & change password (`05g-account-profile-*.svg`) |
-| 6 | **Admin Panel** | `/admin`, `/admin/products`, `/admin/orders` | ⬜ | ⬜ | `Pending` | Income/Sales/Delivered/Cancelled charts, Stock & Media URL/YouTube manager |
+| 6a | **Account — Orders** | `/account` | ✅ | ✅ | `Approved` | Order History & tracking links (`06a-account-orders-*.svg`) |
+| 6b | **Account — BD Addresses** | `/account/addresses` | ✅ | ✅ | `Approved` | Saved BD addresses + Add/Edit (`06b-account-addresses-*.svg`) |
+| 6c | **Account — Profile** | `/account/profile` | ✅ | ✅ | `Approved` | Personal details & change password (`06c-account-profile-*.svg`) |
+| 7a | **Admin — Dashboard Overview** | `/admin` | 🟡 | 🟡 | `In Figma` | Income/Sales/Delivered/Cancelled KPIs + Charts + Low Stock (`07a-admin-dashboard-*.svg`) |
+| 7b | **Admin — Product & Stock Manager** | `/admin/products` | 🟡 | 🟡 | `In Figma` | Product table, Variants, Stock, Cloudinary + YouTube URLs (`07b-admin-products-*.svg`) |
+| 7c | **Admin — Order Manager** | `/admin/orders` | ⬜ | ⬜ | `Pending` | Order pipeline & COD status management |
 
 **Status Legend:** `Pending` → `In Figma` → `Revisions` → `Approved` → `Built`
