@@ -1,0 +1,159 @@
+<svg width="1440" height="2360" viewBox="0 0 1440 2360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="PDP-Desktop-BG" width="1440" height="2360" fill="#FFFFFF"/>
+
+  <!-- 01. ANNOUNCEMENT BAR -->
+  <g id="01-Announcement-Bar">
+    <rect width="1440" height="36" fill="#111111"/>
+    <text x="720" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
+  </g>
+
+  <!-- 02. STICKY NAVBAR -->
+  <g id="02-Navbar">
+    <rect y="36" width="1440" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
+    <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+
+    <text x="486" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
+    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+
+    <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
+    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1300" cy="68" r="4.5" stroke="#111111" stroke-width="1.5"/>
+    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#111111" stroke-width="1.5"/>
+    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#111111" stroke-width="1.5"/>
+    <path d="M1338 65V62C1338 59.8 1339.8 58 1342 58C1344.2 58 1346 59.8 1346 62V65" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1354" cy="62" r="8" fill="#111111"/>
+    <text x="1354" y="66" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">2</text>
+  </g>
+
+  <!-- 03. BREADCRUMB -->
+  <g id="03-Breadcrumb">
+    <text x="80" y="148" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Home  /  Watches  /  Minimalist Matte Chrono 40mm</text>
+  </g>
+
+  <!-- 04. PRODUCT HERO (LEFT GALLERY + RIGHT PURCHASE PANEL) -->
+  <g id="04-Product-Hero">
+    <!-- Left Thumbnail Strip -->
+    <rect id="IMG-PDP-Thumb-1" x="80" y="176" width="88" height="110" rx="2" fill="#F7F7F7" stroke="#111111" stroke-width="1.5"/>
+    <rect id="IMG-PDP-Thumb-2" x="80" y="300" width="88" height="110" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <rect id="IMG-PDP-Thumb-3" x="80" y="424" width="88" height="110" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <rect id="IMG-PDP-Thumb-Video" x="80" y="548" width="88" height="110" rx="2" fill="#111111"/>
+    <polygon points="119,592 135,602 119,612" fill="#FFFFFF"/>
+    <text x="124" y="636" text-anchor="middle" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="10" font-weight="500">VIDEO</text>
+
+    <!-- Main 4:5 Image Frame -->
+    <rect id="IMG-PDP-Main" x="184" y="176" width="560" height="700" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="464" y="526" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">MAIN PRODUCT IMAGE FRAME (560 × 700)</text>
+
+    <!-- Right Purchase Panel -->
+    <text x="800" y="196" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">WATCHES  ·  SKU: WTC-BLK-40</text>
+    <rect x="1276" y="178" width="84" height="24" rx="2" fill="#F0FDF4"/>
+    <text x="1318" y="194" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">IN STOCK</text>
+
+    <text x="800" y="238" fill="#111111" font-family="Inter, sans-serif" font-size="30" font-weight="500" letter-spacing="-0.5">Minimalist Matte Chrono 40mm</text>
+
+    <!-- Price Row -->
+    <text x="800" y="280" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">৳ 2,450</text>
+    <text x="904" y="279" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="16" text-decoration="line-through">৳ 2,900</text>
+    <rect x="976" y="261" width="46" height="22" rx="2" fill="#F1F1F1"/>
+    <text x="999" y="276" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="11" font-weight="500">-15%</text>
+
+    <text x="800" y="318" fill="#525252" font-family="Inter, sans-serif" font-size="14">Brushed 316L stainless steel case with Japanese quartz movement</text>
+    <text x="800" y="338" fill="#525252" font-family="Inter, sans-serif" font-size="14">and sapphire-coated mineral glass. Built for everyday wear.</text>
+
+    <line x1="800" y1="364" x2="1360" y2="364" stroke="#E5E5E5"/>
+
+    <!-- Variant Selector: Strap -->
+    <text x="800" y="396" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">STRAP EDITION:  Matte Steel</text>
+    <rect x="800" y="412" width="120" height="40" rx="2" fill="#111111"/>
+    <text x="860" y="437" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">Matte Steel</text>
+    <rect x="932" y="412" width="124" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="994" y="437" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">Black Leather</text>
+    <rect x="1068" y="412" width="116" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="1126" y="437" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">Nylon Olive</text>
+
+    <!-- Variant Selector: Dial Color -->
+    <text x="800" y="486" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">DIAL COLOR:  Obsidian Black</text>
+    <circle cx="816" cy="516" r="14" fill="#111111"/>
+    <circle cx="816" cy="516" r="18" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="860" cy="516" r="14" fill="#D4D4D4" stroke="#D4D4D4"/>
+    <circle cx="904" cy="516" r="14" fill="#F5F5F0" stroke="#D4D4D4"/>
+
+    <!-- Quantity + Add to Cart + COD Order Now -->
+    <rect x="800" y="560" width="124" height="48" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="822" y="589" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="16">−</text>
+    <text x="862" y="589" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">1</text>
+    <text x="902" y="589" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="16">+</text>
+
+    <rect x="936" y="560" width="424" height="48" rx="2" fill="#FFFFFF" stroke="#111111"/>
+    <text x="1148" y="589" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Add to Cart</text>
+
+    <rect x="800" y="620" width="560" height="48" rx="2" fill="#111111"/>
+    <text x="1080" y="649" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now — Cash on Delivery</text>
+
+    <!-- BD Delivery Info Box -->
+    <rect x="800" y="688" width="560" height="72" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="820" y="716" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Nationwide Bangladesh Delivery (COD)</text>
+    <text x="820" y="740" fill="#525252" font-family="Inter, sans-serif" font-size="12">Inside Dhaka: ৳ 70 (1–2 days) · Outside Dhaka: ৳ 130 (2–4 days) · Free over ৳ 3,000</text>
+
+    <!-- Accordions -->
+    <line x1="800" y1="792" x2="1360" y2="792" stroke="#E5E5E5"/>
+    <text x="800" y="822" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Specifications</text>
+    <text x="1352" y="822" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="16">−</text>
+    <text x="800" y="852" fill="#525252" font-family="Inter, sans-serif" font-size="13">Case: 40mm 316L Steel · Movement: Miyota Quartz · Water Resistance: 3ATM</text>
+    <line x1="800" y1="876" x2="1360" y2="876" stroke="#E5E5E5"/>
+
+    <text x="800" y="906" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Delivery &amp; Return Policy</text>
+    <text x="1352" y="906" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="16">+</text>
+    <line x1="800" y1="930" x2="1360" y2="930" stroke="#E5E5E5"/>
+  </g>
+
+  <!-- 05. PRODUCT VIDEO EMBED (YOUTUBE LITE-EMBED) -->
+  <g id="05-Product-Video">
+    <text x="80" y="1020" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">PRODUCT FILM · YOUTUBE</text>
+    <text x="80" y="1052" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">Hands-On Preview</text>
+
+    <rect id="IMG-PDP-YouTube" x="80" y="1080" width="1280" height="440" rx="2" fill="#111111"/>
+    <circle cx="720" cy="1300" r="36" fill="#FFFFFF"/>
+    <polygon points="714,1287 735,1300 714,1313" fill="#111111"/>
+    <text x="720" y="1368" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">YOUTUBE VIDEO EMBED FRAME (16:9 · LAZY LOAD)</text>
+  </g>
+
+  <!-- 06. RELATED PRODUCTS (4-COL GRID) -->
+  <g id="06-Related-Products">
+    <text x="80" y="1604" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">You May Also Like</text>
+    <text x="1360" y="1604" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">View Watches →</text>
+
+    <rect id="IMG-Rel-1" x="80" y="1632" width="302" height="340" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="80" y="1994" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">WATCHES</text>
+    <text x="80" y="2014" fill="#111111" font-family="Inter, sans-serif" font-size="14">Steel Mesh Field Watch 38mm</text>
+    <text x="80" y="2036" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 2,890</text>
+
+    <rect id="IMG-Rel-2" x="406" y="1632" width="302" height="340" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="406" y="1994" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">GLASSES</text>
+    <text x="406" y="2014" fill="#111111" font-family="Inter, sans-serif" font-size="14">Acetate Square UV400 Frame</text>
+    <text x="406" y="2036" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,190</text>
+
+    <rect id="IMG-Rel-3" x="732" y="1632" width="302" height="340" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="732" y="1994" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">T-SHIRTS</text>
+    <text x="732" y="2014" fill="#111111" font-family="Inter, sans-serif" font-size="14">Heavyweight Boxy Tee — Charcoal</text>
+    <text x="732" y="2036" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 890</text>
+
+    <rect id="IMG-Rel-4" x="1058" y="1632" width="302" height="340" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="1058" y="1994" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">HOBBY</text>
+    <text x="1058" y="2014" fill="#111111" font-family="Inter, sans-serif" font-size="14">1:64 Diecast Collector GT</text>
+    <text x="1058" y="2036" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,650</text>
+  </g>
+
+  <!-- 07. FOOTER -->
+  <g id="07-Footer">
+    <rect y="2120" width="1440" height="240" fill="#111111"/>
+    <text x="80" y="2200" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="80" y="2232" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist everyday objects &amp; hobby goods for Bangladesh.</text>
+    <line x1="80" y1="2290" x2="1360" y2="2290" stroke="#2A2A2A"/>
+    <text x="80" y="2328" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh · BDT (৳) · Cash on Delivery</text>
+  </g>
+</svg>

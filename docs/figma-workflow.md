@@ -18,8 +18,8 @@
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
 | 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` (`00-design-system-*.svg`) |
 | 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | Hero, Bento Categories, Featured, Video Spotlight, Footer (`01-landing-*.svg`) |
-| 2 | **Products / Catalog Page** | `/products` | 🟡 | 🟡 | `In Figma` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
-| 3 | **Product Detail Page** | `/product/[slug]` | ⬜ | ⬜ | `Pending` | Gallery + YouTube embed, Variants, Stock, COD CTA |
+| 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
+| 3 | **Product Detail Page** | `/product/[slug]` | 🟡 | 🟡 | `In Figma` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
 | 4 | **Cart Drawer, Checkout & Order Tracking** | `/checkout`, `/order/[id]` | ⬜ | ⬜ | `Pending` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee |
 | 5 | **Auth Pages & User Account** | `/login`, `/signup`, `/forgot-password`, `/account` | ⬜ | ⬜ | `Pending` | Google OAuth, Forgot Password, Saved Addresses, Orders |
 | 6 | **Admin Panel** | `/admin`, `/admin/products`, `/admin/orders` | ⬜ | ⬜ | `Pending` | Income/Sales/Delivered/Cancelled charts, Stock & Media URL/YouTube manager |
