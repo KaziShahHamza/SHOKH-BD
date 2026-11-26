@@ -1,5 +1,5 @@
-<svg width="1440" height="3320" viewBox="0 0 1440 3320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Landing-Desktop-BG" width="1440" height="3320" fill="#FFFFFF"/>
+<svg width="1440" height="2836" viewBox="0 0 1440 2836" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Landing-Desktop-BG" width="1440" height="2836" fill="#FFFFFF"/>
 
   <!-- 01. ANNOUNCEMENT BAR -->
   <g id="01-Announcement-Bar">
@@ -220,45 +220,5 @@
     <line x1="80" y1="2776" x2="1360" y2="2776" stroke="#E5E5E5"/>
     <text x="80" y="2808" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh</text>
     <text x="1360" y="2808" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · COD</text>
-  </g>
-
-  <!-- 08. FIGMA HOVER / MOTION STATES (FOR SMART ANIMATE 220MS EASE-OUT) -->
-  <g id="08-Motion-Hover-States">
-    <rect y="2860" width="1440" height="460" fill="#F7F7F7"/>
-    <line x1="0" y1="2860" x2="1440" y2="2860" stroke="#E5E5E5"/>
-    <text x="80" y="2912" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">08. Interactive Hover &amp; Motion States (Wire in Figma Prototype → Smart Animate 220ms Ease-Out)</text>
-
-    <!-- State A: Product Card Hover -->
-    <text x="80" y="2950" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT CARD: HOVER STATE (IMAGE CROSSFADE + QUICK ADD SLIDE-UP)</text>
-    <rect x="80" y="2968" width="240" height="270" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <rect x="92" y="2980" width="216" height="196" rx="2" fill="#EBEBEB"/>
-    <text x="200" y="3072" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">ALT IMAGE (CROSSFADE 220MS)</text>
-    <rect x="100" y="3134" width="200" height="32" rx="2" fill="#111111"/>
-    <text x="200" y="3154" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Quick Add +</text>
-    <text x="92" y="3198" fill="#111111" font-family="Inter, sans-serif" font-size="13">Matte Chrono 40mm</text>
-    <text x="92" y="3220" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,450</text>
-
-    <!-- State B: Button Hover & Bento Hover -->
-    <text x="420" y="2950" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">BUTTONS: DEFAULT → HOVER (150MS)</text>
-    <rect x="420" y="2968" width="180" height="48" rx="2" fill="#111111"/>
-    <text x="510" y="2997" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Default (#111111)</text>
-    <rect x="616" y="2968" width="180" height="48" rx="2" fill="#2A2A2A"/>
-    <text x="706" y="2997" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Hover (#2A2A2A)</text>
-
-    <text x="420" y="3054" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">BENTO CATEGORY: HOVER BORDER + ARROW SHIFT (220MS)</text>
-    <rect x="420" y="3072" width="376" height="166" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <text x="608" y="3134" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">IMAGE SCALE 1.03X</text>
-    <rect x="436" y="3178" width="344" height="44" rx="2" fill="#111111"/>
-    <text x="452" y="3205" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Watches · Explore Collection</text>
-    <text x="764" y="3205" text-anchor="end" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">→</text>
-
-    <!-- State C: Motion Spec Card -->
-    <rect x="880" y="2968" width="480" height="270" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="908" y="3006" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Motion Rules (Framer Motion / Tailwind)</text>
-    <text x="908" y="3042" fill="#525252" font-family="JetBrains Mono, monospace" font-size="12">Curve: cubic-bezier(0.22, 1, 0.36, 1)</text>
-    <text x="908" y="3072" fill="#525252" font-family="JetBrains Mono, monospace" font-size="12">150ms: Button hovers, variant pills</text>
-    <text x="908" y="3102" fill="#525252" font-family="JetBrains Mono, monospace" font-size="12">220ms: Card image crossfade, Quick Add</text>
-    <text x="908" y="3132" fill="#525252" font-family="JetBrains Mono, monospace" font-size="12">320ms: Cart &amp; Filter slide-over drawers</text>
-    <text x="908" y="3174" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Subtle, restrained motion only — zero heavy parallax.</text>
   </g>
 </svg>
