@@ -42,8 +42,8 @@
 
 ## 5. Git & Engineering Rules
 - **NEVER commit directly to `main`.**
-- Always work on descriptive branches: `docs/*`, `design/*`, `feat/*`, `fix/*`, `refactor/*`, `test/*`.
-- Use **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`).
+- **Keep active branches minimal (max 1–2):** Use `design/figma-ui` for all Phase 0 Figma designs (do **not** create a separate branch per page). For Phase 1+, use one milestone branch at a time (`feat/*`, `fix/*`, `docs/*`), merge via PR to `main`, and **delete old branches** locally and on GitHub. See [Git Workflow](./docs/git-workflow.md).
+- Use **Conventional Commits** (`feat:`, `design:`, `docs:`, `fix:`, `refactor:`, `test:`, `chore:`) and **Git Tags** (`v0.1.0-docs`, `v0.2.0-figma`, `v1.0.0-mvp`) on `main` for milestones.
 - Keep animations **subtle and restrained** (`150ms–250ms`, ease-out curves) — never heavy parallax or distracting effects.
 - Preserve existing comments and documentation unless explicitly asked to change them.
 
@@ -61,3 +61,4 @@ When transitioning to Phase 1 (Implementation), create dedicated workspace skill
 - [Design System](./docs/design-system.md)
 - [Design Tokens JSON](./design/tokens.json)
 - [Figma Workflow & Tracker](./docs/figma-workflow.md)
+- [Git Workflow, PRs & Tags](./docs/git-workflow.md)
