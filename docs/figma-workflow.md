@@ -28,8 +28,8 @@
 | 6a | **Account — Orders** | `/account` | ✅ | ✅ | `Approved` | Order History & tracking links (`06a-account-orders-*.svg`) |
 | 6b | **Account — BD Addresses** | `/account/addresses` | ✅ | ✅ | `Approved` | Saved BD addresses + Add/Edit (`06b-account-addresses-*.svg`) |
 | 6c | **Account — Profile** | `/account/profile` | ✅ | ✅ | `Approved` | Personal details & change password (`06c-account-profile-*.svg`) |
-| 7a | **Admin — Dashboard Overview** | `/admin` | 🟡 | 🟡 | `In Figma` | Income/Sales/Delivered/Cancelled KPIs + Charts + Low Stock (`07a-admin-dashboard-*.svg`) |
-| 7b | **Admin — Product & Stock Manager** | `/admin/products` | 🟡 | 🟡 | `In Figma` | Product table, Variants, Stock, Cloudinary + YouTube URLs (`07b-admin-products-*.svg`) |
-| 7c | **Admin — Order Manager** | `/admin/orders` | ⬜ | ⬜ | `Pending` | Order pipeline & COD status management |
+| 7a | **Admin — Dashboard Overview** | `/admin` | ✅ | ✅ | `Approved` | Income/Sales/Delivered/Cancelled KPIs + Charts + Low Stock (`07a-admin-dashboard-*.svg`) |
+| 7b | **Admin — Product & Stock Manager** | `/admin/products` | ✅ | ✅ | `Approved` | Product table, Variants, Stock, Cloudinary + YouTube URLs (`07b-admin-products-*.svg`) |
+| 7c | **Admin — Order Manager** | `/admin/orders` | 🟡 | 🟡 | `In Figma` | Order pipeline & COD status management (`07c-admin-orders-*.svg`) |
 
 **Status Legend:** `Pending` → `In Figma` → `Revisions` → `Approved` → `Built`
