@@ -21,10 +21,10 @@
 | 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
 | 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
 | 4 | **Cart Drawer, Checkout & Order Tracking** | `/checkout`, `/order/[id]` | ✅ | ✅ | `Approved` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, Timeline (`04-checkout-and-cart-*.svg`) |
-| 5a | **Login Page** | `/login` | 🟡 | 🟡 | `In Figma` | Google OAuth + Email/Password (`05a-login-*.svg`) |
-| 5b | **Signup Page** | `/signup` | 🟡 | 🟡 | `In Figma` | Google OAuth + Name, BD Phone, Email, Password (`05b-signup-*.svg`) |
-| 5c | **Forgot Password Page** | `/forgot-password` | ⬜ | ⬜ | `Pending` | Email reset link request |
-| 5d | **Reset Password Page** | `/reset-password` | ⬜ | ⬜ | `Pending` | New password + confirm form |
+| 5a | **Login Page** | `/login` | ✅ | ✅ | `Approved` | Google OAuth + Email/Password (`05a-login-*.svg`) |
+| 5b | **Signup Page** | `/signup` | ✅ | ✅ | `Approved` | Google OAuth + Name, BD Phone, Email, Password (`05b-signup-*.svg`) |
+| 5c | **Forgot Password Page** | `/forgot-password` | 🟡 | 🟡 | `In Figma` | Email reset link request (`05c-forgot-password-*.svg`) |
+| 5d | **Reset Password Page** | `/reset-password` | 🟡 | 🟡 | `In Figma` | New password + confirm form (`05d-reset-password-*.svg`) |
 | 5e | **User Account Page** | `/account` | ⬜ | ⬜ | `Pending` | Order History, Saved BD Addresses, Profile |
 | 6 | **Admin Panel** | `/admin`, `/admin/products`, `/admin/orders` | ⬜ | ⬜ | `Pending` | Income/Sales/Delivered/Cancelled charts, Stock & Media URL/YouTube manager |
 
