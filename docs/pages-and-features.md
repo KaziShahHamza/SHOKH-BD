@@ -74,13 +74,15 @@ Accessible only to users with `role === 'ADMIN'`. Clean monochrome dashboard lay
 ### 4.1 Dashboard Overview (`/admin`)
 - **Date Range Filter:** Today, Last 7 Days, Last 30 Days, This Month, All Time.
 - **KPI Summary Cards:**
-  - Total Income (`৳` — delivered/confirmed revenue)
+  - Total Income (`৳` — delivered revenue)
   - Total Sales (total order count)
   - Delivered Orders (count + completion rate)
-  - Cancelled Orders (count + cancellation rate)
+  - Cancelled & Returned Orders (counts + rates)
 - **Analytics Charts:**
   - Revenue & Sales Trend Chart (Line/Area chart over time).
-  - Order Status Breakdown Chart (Bar/Donut chart: Pending, Confirmed, Shipped, Delivered, Cancelled).
+  - Order Status Breakdown Chart (Pending, Confirmed, Shipped, Delivered, Cancelled, Returned).
+  - **COD Cash Flow Breakdown:** Cash Collected (`Delivered`) vs. Cash in Transit (`Confirmed + Shipped`) vs. Lost/Returned Value (`Cancelled + Returned`).
+  - **Top 5 Best-Selling Products:** Ranked horizontal bar chart by revenue (`৳`) or units sold.
 - **Low-Stock Alert Table:** Variants at or below `lowStockThreshold` with quick `Restock` inline action.
 
 ### 4.2 Product & Stock Manager (`/admin/products`)
@@ -98,6 +100,13 @@ Accessible only to users with `role === 'ADMIN'`. Clean monochrome dashboard lay
   - **Category Specs Builder:** Key-value rows (e.g., `Water Resistance: 3ATM`).
 
 ### 4.3 Order Manager (`/admin/orders`)
-- Filter by status (`Pending`, `Confirmed`, `Shipped`, `Delivered`, `Cancelled`), delivery zone, or search by Order Number / Phone.
-- Order detail drawer/page showing full BD address, customer phone (one-click copy/call), line items, and **Status Update Controls** (`Pending → Confirmed → Shipped → Delivered`, or `Cancelled` with automatic stock restoration).
+- Filter by status (`Pending`, `Confirmed`, `Shipped`, `Delivered`, `Cancelled`, `Returned`), delivery zone, or search by Order Number / Phone.
+- Order detail drawer/page showing full BD address, customer phone (with COD risk-flag warning if flagged), line items, **1-Click Printable COD Packing Slip / Invoice** (`@media print`), and **Status Update Controls** (`Pending → Confirmed → Shipped → Delivered`, or `Cancelled` / `Returned` with automatic stock restoration).
 - Optional courier tracking code input.
+
+### 4.4 Customer Directory & COD Risk Flag (`/admin/customers`)
+- Aggregated view of registered customers and guest phone numbers: Total Orders, Delivered, Cancelled/Returned, Total Spent (`৳`).
+- **Flag COD Risk** toggle + note for repeat-cancellation/return phone numbers (surfaced as a warning badge on new orders).
+
+### 4.5 Store & Delivery Settings (`/admin/settings`)
+- Live configuration of **Inside Dhaka fee (`৳ 70`)**, **Outside Dhaka fee (`৳ 130`)**, **Free-shipping threshold (`৳ 3,000`)**, and **Announcement Bar text**.

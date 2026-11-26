@@ -94,7 +94,7 @@ type ProductMedia = {
 | `total` | `number` | `subtotal + deliveryFee - discount` |
 | `paymentMethod` | `enum('COD', 'BKASH', 'NAGAD', 'CARD')` | Default `'COD'` |
 | `paymentStatus` | `enum('UNPAID', 'PAID', 'REFUNDED')` | Default `'UNPAID'` (auto `'PAID'` when COD order is `'DELIVERED'`) |
-| `orderStatus` | `enum` | `'PENDING' \| 'CONFIRMED' \| 'SHIPPED' \| 'DELIVERED' \| 'CANCELLED'` (indexed) |
+| `orderStatus` | `enum` | `'PENDING' \| 'CONFIRMED' \| 'SHIPPED' \| 'DELIVERED' \| 'CANCELLED' \| 'RETURNED'` (indexed) |
 | `trackingCode` | `string?` | Optional courier tracking reference |
 | `statusHistory` | `Array<{ status, note?, updatedBy?, at: Date }>` | Audit trail for order tracking timeline |
 | `createdAt` | `Date` | Indexed (used for Admin income/sales charts) |
@@ -107,7 +107,7 @@ type ProductMedia = {
 | `productId` | `string` | Indexed |
 | `variantId` | `string` | Indexed |
 | `delta` | `number` | Negative on order deduction, positive on restock or order cancellation |
-| `reason` | `enum('ORDER_PLACED', 'ORDER_CANCELLED', 'ADMIN_RESTOCK', 'ADMIN_ADJUSTMENT')` | Required |
+| `reason` | `enum('ORDER_PLACED', 'ORDER_CANCELLED', 'ORDER_RETURNED', 'ADMIN_RESTOCK', 'ADMIN_ADJUSTMENT')` | Required |
 | `referenceId` | `string?` | `orderId` or `adminUserId` |
 | `createdAt` | `Date` | Indexed |
 
@@ -124,13 +124,18 @@ type ProductMedia = {
 ### `store_settings` (Single-Row Config)
 - `insideDhakaFee` (number, default `70`)
 - `outsideDhakaFee` (number, default `130`)
-- `freeShippingThreshold` (number | null, e.g., `3000`)
+- `freeShippingThreshold` (number | null, default `3000`)
+- `announcementText` (string, editable live from `/admin/settings`)
+
+### `phone_flags` (COD Risk Flagging)
+- `id` (`string`), `phone` (`string`, unique indexed, BD `01XXXXXXXXX`)
+- `isFlagged` (`boolean`), `reason` (`string?`), `updatedBy` (`string`), `updatedAt` (`Date`)
 
 ---
 
 ## 2. Stock Consistency Rules
 1. **Order Placement:** Use atomic conditional stock decrement (`stock >= quantity`) inside a transaction (MongoDB session / Postgres transaction) so overselling cannot occur under concurrent checkouts.
-2. **Order Cancellation:** Transitioning an order to `CANCELLED` automatically restores variant `stock` and logs an `ORDER_CANCELLED` entry in `stock_movements`.
+2. **Order Cancellation & Returns:** Transitioning an order to `CANCELLED` or `RETURNED` automatically restores variant `stock` and logs an `ORDER_CANCELLED` or `ORDER_RETURNED` entry in `stock_movements`.
 3. **Denormalized `products.totalStock`:** Recalculated whenever any variant stock changes so catalog pages can filter `In Stock` instantly.
 
 ## 3. PostgreSQL / Supabase Mapping Notes
