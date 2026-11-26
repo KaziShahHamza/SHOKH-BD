@@ -17,10 +17,13 @@
 | # | Deliverable / Page | Route | Desktop (`1440px`) | Mobile (`390px`) | Status | Notes |
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
 | 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` (`00-design-system-*.svg`) |
+| 0b | **Navbar Account Dropdown** (Logged-out + Logged-in + Guest Track Order) | — | 🟡 | 🟡 | `In Figma` | Desktop dropdown + Mobile menu drawer (`00b-navbar-account-dropdown.svg`) |
 | 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | Hero, Bento Categories, Featured, Video Spotlight, Footer (`01-landing-*.svg`) |
 | 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
 | 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
-| 4 | **Cart Drawer, Checkout & Order Tracking** | `/checkout`, `/order/[id]` | ✅ | ✅ | `Approved` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, Timeline (`04-checkout-and-cart-*.svg`) |
+| 4a | **Checkout Page** | `/checkout` | 🟡 | 🟡 | `In Figma` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, COD summary (`04a-checkout-*.svg`) |
+| 4b | **Slide-Over Cart Drawer** (Overlay) | — | 🟡 | 🟡 | `In Figma` | Right-docked overlay drawer with free-shipping bar & steppers (`04b-cart-drawer-*.svg`) |
+| 4c | **Order Tracking & Guest Lookup** | `/track-order`, `/order/[id]` | 🟡 | 🟡 | `In Figma` | Order Number + BD Phone lookup card + 4-step COD timeline (`04c-order-tracking-*.svg`) |
 | 5a | **Login Page** | `/login` | ✅ | ✅ | `Approved` | Google OAuth + Email/Password (`05a-login-*.svg`) |
 | 5b | **Signup Page** | `/signup` | ✅ | ✅ | `Approved` | Google OAuth + Name, BD Phone, Email, Password (`05b-signup-*.svg`) |
 | 5c | **Forgot Password Page** | `/forgot-password` | ✅ | ✅ | `Approved` | Email reset link request (`05c-forgot-password-*.svg`) |

@@ -1,5 +1,5 @@
-<svg width="1440" height="2360" viewBox="0 0 1440 2360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Checkout-Desktop-BG" width="1440" height="2360" fill="#FFFFFF"/>
+<svg width="1440" height="1460" viewBox="0 0 1440 1460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Checkout-Desktop-BG" width="1440" height="1460" fill="#FFFFFF"/>
 
   <!-- 01. CHECKOUT HEADER -->
   <g id="01-Checkout-Header">
@@ -103,88 +103,8 @@
     <text x="1110" y="704" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Estimated delivery: 1–2 business days inside Dhaka.</text>
   </g>
 
-  <!-- 04. SLIDE-OVER CART DRAWER & ORDER TRACKING PREVIEW -->
-  <g id="04-Cart-And-Tracking">
-    <line x1="80" y1="980" x2="1360" y2="980" stroke="#E5E5E5"/>
-    <text x="80" y="1028" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Slide-Over Cart Drawer (440px)  &amp;  Order Tracking (/order/SHK-2026-00412)</text>
-
-    <!-- Left: Cart Drawer -->
-    <g id="Cart-Drawer-Preview">
-      <rect x="80" y="1060" width="440" height="720" rx="2" fill="#FFFFFF" stroke="#111111"/>
-      <text x="108" y="1104" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Your Bag (2)</text>
-      <text x="492" y="1104" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="16">✕</text>
-      <line x1="80" y1="1126" x2="520" y2="1126" stroke="#E5E5E5"/>
-
-      <!-- Free shipping bar -->
-      <rect x="108" y="1144" width="384" height="36" rx="2" fill="#F0FDF4"/>
-      <text x="300" y="1167" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="12" font-weight="500">✓ You unlocked Free Nationwide Shipping</text>
-
-      <!-- Cart Item 1 -->
-      <rect id="IMG-Cart-1" x="108" y="1200" width="76" height="94" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-      <text x="200" y="1222" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Matte Chrono 40mm</text>
-      <text x="200" y="1242" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Matte Steel</text>
-      <text x="492" y="1222" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,450</text>
-      <rect x="200" y="1262" width="84" height="30" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-      <text x="242" y="1282" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">−   1   +</text>
-      <text x="492" y="1282" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" text-decoration="underline">Remove</text>
-
-      <!-- Cart Item 2 -->
-      <rect id="IMG-Cart-2" x="108" y="1316" width="76" height="94" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-      <text x="200" y="1338" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Square UV400 Frame</text>
-      <text x="200" y="1358" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Matte Black</text>
-      <text x="492" y="1338" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,190</text>
-      <rect x="200" y="1378" width="84" height="30" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-      <text x="242" y="1398" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">−   1   +</text>
-
-      <!-- Drawer Footer -->
-      <line x1="80" y1="1630" x2="520" y2="1630" stroke="#E5E5E5"/>
-      <text x="108" y="1664" fill="#525252" font-family="Inter, sans-serif" font-size="14">Subtotal</text>
-      <text x="492" y="1664" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="600">৳ 3,640</text>
-      <text x="108" y="1688" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Dhaka ৳ 70 · Outside Dhaka ৳ 130 calculated at checkout</text>
-      <rect x="108" y="1708" width="384" height="48" rx="2" fill="#111111"/>
-      <text x="300" y="1737" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Proceed to Checkout →</text>
-    </g>
-
-    <!-- Right: Order Confirmation & Tracking -->
-    <g id="Order-Tracking-Preview">
-      <rect x="580" y="1060" width="780" height="720" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-      <rect x="620" y="1100" width="110" height="26" rx="2" fill="#F0FDF4"/>
-      <text x="675" y="1117" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="500">✓ CONFIRMED</text>
-      <text x="620" y="1162" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">Thank you, Tanvir!</text>
-      <text x="620" y="1190" fill="#525252" font-family="JetBrains Mono, monospace" font-size="13">ORDER ID: SHK-2026-00412  ·  PAYMENT: CASH ON DELIVERY</text>
-
-      <!-- 4-Step Timeline -->
-      <line x1="650" y1="1260" x2="1280" y2="1260" stroke="#E5E5E5" stroke-width="2"/>
-      <line x1="650" y1="1260" x2="860" y2="1260" stroke="#111111" stroke-width="2"/>
-
-      <circle cx="650" cy="1260" r="10" fill="#111111"/>
-      <text x="650" y="1292" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Pending</text>
-
-      <circle cx="860" cy="1260" r="10" fill="#1D4ED8"/>
-      <text x="860" y="1292" text-anchor="middle" fill="#1D4ED8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Confirmed</text>
-
-      <circle cx="1070" cy="1260" r="10" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="2"/>
-      <text x="1070" y="1292" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Shipped</text>
-
-      <circle cx="1280" cy="1260" r="10" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="2"/>
-      <text x="1280" y="1292" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Delivered</text>
-
-      <!-- Address & COD Total -->
-      <rect x="620" y="1340" width="700" height="120" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-      <text x="644" y="1374" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Delivery Address (Dhaka Metro)</text>
-      <text x="644" y="1398" fill="#525252" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
-      <text x="644" y="1420" fill="#525252" font-family="Inter, sans-serif" font-size="13">House 14, Road 6, Dhanmondi, Dhaka 1205</text>
-
-      <text x="1296" y="1374" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">COD PAYABLE</text>
-      <text x="1296" y="1408" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600">৳ 3,640</text>
-
-      <rect x="620" y="1500" width="200" height="44" rx="2" fill="#111111"/>
-      <text x="720" y="1527" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">Continue Shopping</text>
-    </g>
-  </g>
-
-  <!-- 05. FOOTER (EXACT GLOBAL DESKTOP FOOTER) -->
-  <g id="05-Footer" transform="translate(0, 1960)">
+  <!-- 04. FOOTER (EXACT GLOBAL DESKTOP FOOTER) -->
+  <g id="04-Footer" transform="translate(0, 1060)">
     <rect width="1440" height="400" fill="#111111"/>
     <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
     <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp;</text>

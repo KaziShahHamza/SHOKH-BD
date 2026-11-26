@@ -3,8 +3,11 @@
 ## 1. Global Layout Elements
 - **Top Announcement Bar (Optional / Subtle):** e.g., *"Nationwide Bangladesh Delivery • Cash on Delivery Available"*.
 - **Sticky Minimal Navbar:**
-  - Desktop: Brand Wordmark (left), Category Links (`Watches`, `Glasses`, `Crocs`, `T-Shirts`, `Hobby`) (center), Search Trigger, Account Icon, Cart Icon with item count badge (right).
-  - Mobile: Hamburger Menu (left), Brand Wordmark (center), Search + Cart Icon (right). Slide-over navigation drawer with categories and Account/Login link.
+  - Desktop: Brand Wordmark (left), Category Links (`Watches`, `Glasses`, `Crocs`, `T-Shirts`, `Hobby`) (center), Search Trigger, Account Icon Dropdown, Cart Icon with item count badge (right).
+  - **Account Icon Dropdown:**
+    - *Logged Out:* `Sign In` (`/login`), `Create Account` (`/signup`), `Track Guest Order →` (`/track-order`).
+    - *Logged In:* Buyer Name & BD Phone header, `My Orders` (`/account`), `Saved BD Addresses` (`/account/addresses`), `Profile & Password` (`/account/profile`), `Track an Order` (`/track-order`), `Admin Console` (`/admin`, if `ADMIN`), `Sign Out`.
+  - Mobile: Hamburger Menu (left), Brand Wordmark (center), Search + Cart Icon (right). Slide-over navigation drawer with categories and the same Account/Guest Track Order links.
 - **Slide-Over Cart Drawer:** Accessible from any page; displays items, variant tags, quantity +/- controls, item removal, subtotal in `৳`, free-shipping progress indicator (if enabled), and `Proceed to Checkout` CTA.
 - **Minimal Footer:** Brand statement, 5 category links, Track Order link, Support contact (Gmail/WhatsApp), Delivery & Return Policy links.
 
