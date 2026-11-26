@@ -1,18 +1,38 @@
-<svg width="1440" height="2360" viewBox="0 0 1440 2360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Checkout-Desktop-BG" width="1440" height="2360" fill="#FFFFFF"/>
+<svg width="1440" height="2400" viewBox="0 0 1440 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Checkout-Desktop-BG" width="1440" height="2400" fill="#FFFFFF"/>
 
-  <!-- 01. CHECKOUT HEADER -->
-  <g id="01-Checkout-Header">
-    <rect width="1440" height="72" fill="#FFFFFF"/>
-    <line x1="0" y1="72" x2="1440" y2="72" stroke="#E5E5E5"/>
-    <text x="80" y="44" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
-    <text x="720" y="42" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">1. Bag   →   <tspan fill="#111111" font-weight="500">2. Delivery &amp; COD</tspan>   →   3. Confirmation</text>
-    <text x="1360" y="42" text-anchor="end" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">NATIONWIDE BD COD</text>
+  <!-- 01. ANNOUNCEMENT BAR -->
+  <g id="01-Announcement-Bar">
+    <rect width="1440" height="36" fill="#111111"/>
+    <text x="720" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
   </g>
 
-  <!-- 02. CHECKOUT 2-COL LAYOUT -->
-  <g id="02-Checkout-Form">
+  <!-- 02. STICKY NAVBAR -->
+  <g id="02-Navbar">
+    <rect y="36" width="1440" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
+    <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+
+    <text x="486" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
+    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+
+    <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
+    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1300" cy="68" r="4.5" stroke="#111111" stroke-width="1.5"/>
+    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#111111" stroke-width="1.5"/>
+    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#111111" stroke-width="1.5"/>
+    <path d="M1338 65V62C1338 59.8 1339.8 58 1342 58C1344.2 58 1346 59.8 1346 62V65" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1354" cy="62" r="8" fill="#111111"/>
+    <text x="1354" y="66" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">2</text>
+  </g>
+
+  <!-- 03. CHECKOUT 2-COL LAYOUT -->
+  <g id="03-Checkout-Form" transform="translate(0, 36)">
     <text x="80" y="128" fill="#111111" font-family="Inter, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.4">Checkout</text>
+    <text x="1360" y="128" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">1. Bag   →   <tspan fill="#111111" font-weight="500">2. Delivery &amp; COD</tspan>   →   3. Confirmation</text>
 
     <!-- Guest / Login Banner -->
     <rect x="80" y="152" width="720" height="52" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
@@ -68,7 +88,7 @@
   </g>
 
   <!-- RIGHT ORDER SUMMARY CARD -->
-  <g id="03-Order-Summary">
+  <g id="03-Order-Summary" transform="translate(0, 36)">
     <rect x="860" y="152" width="500" height="760" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
     <text x="892" y="196" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Order Summary (2 items)</text>
 
@@ -104,7 +124,7 @@
   </g>
 
   <!-- 04. SLIDE-OVER CART DRAWER & ORDER TRACKING PREVIEW -->
-  <g id="04-Cart-And-Tracking">
+  <g id="04-Cart-And-Tracking" transform="translate(0, 36)">
     <line x1="80" y1="980" x2="1360" y2="980" stroke="#E5E5E5"/>
     <text x="80" y="1028" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Slide-Over Cart Drawer (440px)  &amp;  Order Tracking (/order/SHK-2026-00412)</text>
 
@@ -184,7 +204,7 @@
   </g>
 
   <!-- 05. FOOTER -->
-  <g id="05-Footer" transform="translate(0, 1960)">
+  <g id="05-Footer" transform="translate(0, 2000)">
     <rect width="1440" height="400" fill="#111111"/>
     <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
     <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp; hobby goods for Bangladesh.</text>
