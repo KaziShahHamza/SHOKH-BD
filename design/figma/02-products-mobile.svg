@@ -1,0 +1,129 @@
+<svg width="390" height="2020" viewBox="0 0 390 2020" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Products-Mobile-BG" width="390" height="2020" fill="#FFFFFF"/>
+
+  <!-- 01. ANNOUNCEMENT BAR -->
+  <g id="01-Mobile-Announcement">
+    <rect width="390" height="32" fill="#111111"/>
+    <text x="195" y="20" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">NATIONWIDE BD DELIVERY · CASH ON DELIVERY</text>
+  </g>
+
+  <!-- 02. MOBILE NAVBAR -->
+  <g id="02-Mobile-Navbar">
+    <rect y="32" width="390" height="56" fill="#FFFFFF"/>
+    <line x1="0" y1="88" x2="390" y2="88" stroke="#E5E5E5"/>
+    <line x1="16" y1="54" x2="34" y2="54" stroke="#111111" stroke-width="1.5"/>
+    <line x1="16" y1="60" x2="34" y2="60" stroke="#111111" stroke-width="1.5"/>
+    <line x1="16" y1="66" x2="28" y2="66" stroke="#111111" stroke-width="1.5"/>
+    <text x="195" y="66" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <circle cx="326" cy="59" r="6" stroke="#111111" stroke-width="1.5"/>
+    <line x1="330" y1="63" x2="334" y2="67" stroke="#111111" stroke-width="1.5"/>
+    <rect x="352" y="53" width="15" height="14" rx="1.5" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="370" cy="51" r="7" fill="#111111"/>
+    <text x="370" y="54.5" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="9" font-weight="500">2</text>
+  </g>
+
+  <!-- 03. MOBILE CATALOG HEADER & CATEGORY PILLS -->
+  <g id="03-Mobile-Catalog-Header">
+    <text x="16" y="122" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">Home / All Products</text>
+    <text x="16" y="154" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500">All Products</text>
+    <text x="374" y="152" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">84 ITEMS</text>
+
+    <!-- Scrollable Category Pills -->
+    <rect x="16" y="172" width="58" height="32" rx="2" fill="#111111"/>
+    <text x="45" y="192" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">All</text>
+
+    <rect x="82" y="172" width="76" height="32" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="120" y="192" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Watches</text>
+
+    <rect x="166" y="172" width="72" height="32" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="202" y="192" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Glasses</text>
+
+    <rect x="246" y="172" width="62" height="32" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="277" y="192" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Crocs</text>
+
+    <rect x="316" y="172" width="58" height="32" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="345" y="192" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Tees</text>
+  </g>
+
+  <!-- 04. MOBILE FILTER & SORT BAR -->
+  <g id="04-Mobile-Filter-Bar">
+    <line x1="16" y1="220" x2="374" y2="220" stroke="#E5E5E5"/>
+    <rect x="16" y="234" width="172" height="38" rx="2" fill="#F7F7F7" stroke="#D4D4D4"/>
+    <text x="102" y="257" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Filter (2)</text>
+
+    <rect x="202" y="234" width="172" height="38" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="288" y="257" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">Sort: Newest ▾</text>
+    <line x1="16" y1="286" x2="374" y2="286" stroke="#E5E5E5"/>
+  </g>
+
+  <!-- 05. 2-COL MOBILE PRODUCT GRID (3 ROWS = 6 PRODUCTS) -->
+  <g id="05-Mobile-Grid">
+    <!-- Row 1 -->
+    <rect id="IMG-Mob-Grid-1" x="16" y="308" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="102" y="418" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+    <rect x="24" y="316" width="36" height="18" rx="2" fill="#111111"/>
+    <text x="42" y="328" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="9" font-weight="500">NEW</text>
+    <text x="16" y="540" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">WATCHES</text>
+    <text x="16" y="558" fill="#111111" font-family="Inter, sans-serif" font-size="13">Matte Chrono 40mm</text>
+    <text x="16" y="578" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,450</text>
+
+    <rect id="IMG-Mob-Grid-2" x="202" y="308" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="288" y="418" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+    <rect x="210" y="316" width="36" height="18" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="228" y="328" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="9" font-weight="500">-15%</text>
+    <text x="202" y="540" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">GLASSES</text>
+    <text x="202" y="558" fill="#111111" font-family="Inter, sans-serif" font-size="13">Square UV400 Frame</text>
+    <text x="202" y="578" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,190</text>
+
+    <!-- Row 2 -->
+    <rect id="IMG-Mob-Grid-3" x="16" y="610" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="102" y="720" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+    <rect x="124" y="618" width="56" height="18" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <text x="152" y="630" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="9" font-weight="500">▶ VIDEO</text>
+    <text x="16" y="842" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">T-SHIRTS</text>
+    <text x="16" y="860" fill="#111111" font-family="Inter, sans-serif" font-size="13">Boxy Tee — Charcoal</text>
+    <text x="16" y="880" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 890</text>
+
+    <rect id="IMG-Mob-Grid-4" x="202" y="610" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="288" y="720" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+    <text x="202" y="842" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">CROCS</text>
+    <text x="202" y="860" fill="#111111" font-family="Inter, sans-serif" font-size="13">Classic Clog — Bone</text>
+    <text x="202" y="880" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,550</text>
+
+    <!-- Row 3 -->
+    <rect id="IMG-Mob-Grid-5" x="16" y="912" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+    <text x="102" y="1022" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+    <rect x="24" y="920" width="48" height="18" rx="2" fill="#FFFBEB"/>
+    <text x="48" y="932" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="9" font-weight="500">3 LEFT</text>
+    <text x="16" y="1144" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">HOBBY</text>
+    <text x="16" y="1162" fill="#111111" font-family="Inter, sans-serif" font-size="13">1:64 Diecast GT</text>
+    <text x="16" y="1182" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,650</text>
+
+    <g opacity="0.65">
+      <rect id="IMG-Mob-Grid-6" x="202" y="912" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
+      <text x="288" y="1022" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">IMAGE (4:5)</text>
+      <rect x="210" y="920" width="58" height="18" rx="2" fill="#FEF2F2"/>
+      <text x="239" y="932" text-anchor="middle" fill="#B91C1C" font-family="Inter, sans-serif" font-size="9" font-weight="500">SOLD OUT</text>
+      <text x="202" y="1144" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">HOBBY</text>
+      <text x="202" y="1162" fill="#111111" font-family="Inter, sans-serif" font-size="13">Magnetic 3x3 Cube</text>
+      <text x="202" y="1182" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,250</text>
+    </g>
+  </g>
+
+  <!-- 06. LOAD MORE & FOOTER -->
+  <g id="06-Mobile-Load-More">
+    <text x="195" y="1254" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Showing 6 of 84 products</text>
+    <rect x="16" y="1272" width="358" height="44" rx="2" fill="#FFFFFF" stroke="#111111"/>
+    <text x="195" y="1299" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Load More Products</text>
+  </g>
+
+  <g id="07-Mobile-Footer">
+    <rect y="1380" width="390" height="640" fill="#111111"/>
+    <text x="16" y="1436" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <text x="16" y="1466" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches · Glasses · Crocs · T-Shirts · Hobby</text>
+    <text x="16" y="1516" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500">SUPPORT</text>
+    <text x="16" y="1542" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order · Delivery &amp; COD · Contact</text>
+    <line x1="16" y1="1920" x2="374" y2="1920" stroke="#2A2A2A"/>
+    <text x="16" y="1964" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">© 2026 SHOKH Bangladesh · BDT (৳)</text>
+  </g>
+</svg>
