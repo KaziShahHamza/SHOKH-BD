@@ -1,0 +1,259 @@
+<svg width="1440" height="1760" viewBox="0 0 1440 1760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Canvas-BG" width="1440" height="1760" fill="#FFFFFF"/>
+
+  <!-- 00. HEADER -->
+  <g id="00-Header">
+    <text x="80" y="72" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.5">DESIGN SYSTEM V1.0 · SYNCED WITH DESIGN/TOKENS.JSON</text>
+    <text x="80" y="128" fill="#111111" font-family="Inter, sans-serif" font-size="48" font-weight="500" letter-spacing="-1.4">SHOKH</text>
+    <text x="275" y="124" fill="#525252" font-family="Inter, sans-serif" font-size="14" font-weight="400">Clean Monochrome Minimalist · BDT (৳) · Desktop 1440px</text>
+    <text x="1360" y="106" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">GRID: 12 COL · MAX 1280PX · GUTTER 24PX</text>
+    <text x="1360" y="126" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">RADIUS: 2PX / 4PX · MOTION: 150-320MS EASE-OUT</text>
+    <line x1="80" y1="156" x2="1360" y2="156" stroke="#E5E5E5" stroke-width="1"/>
+  </g>
+
+  <!-- 01. COLOR TOKENS -->
+  <g id="01-Color-Tokens">
+    <text x="80" y="212" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">01. Color Tokens</text>
+    <text x="1360" y="212" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Figma Variable Collection: Color</text>
+    <text x="80" y="248" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.1">BACKGROUNDS, TEXT &amp; BORDERS</text>
+
+    <!-- Row 1 Swatches (6 cols, width 200, gap 16) -->
+    <g id="Swatch-bg-primary">
+      <rect x="80" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="80" y="264" width="200" height="76" fill="#FFFFFF"/>
+      <line x1="80" y1="340" x2="280" y2="340" stroke="#E5E5E5"/>
+      <text x="92" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/bg/primary</text>
+      <text x="92" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#FFFFFF</text>
+    </g>
+    <g id="Swatch-bg-surface">
+      <rect x="296" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="296" y="264" width="200" height="76" fill="#F7F7F7"/>
+      <line x1="296" y1="340" x2="496" y2="340" stroke="#E5E5E5"/>
+      <text x="308" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/bg/surface</text>
+      <text x="308" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#F7F7F7</text>
+    </g>
+    <g id="Swatch-bg-subtle">
+      <rect x="512" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="512" y="264" width="200" height="76" fill="#F1F1F1"/>
+      <line x1="512" y1="340" x2="712" y2="340" stroke="#E5E5E5"/>
+      <text x="524" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/bg/subtle</text>
+      <text x="524" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#F1F1F1</text>
+    </g>
+    <g id="Swatch-border-subtle">
+      <rect x="728" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="728" y="264" width="200" height="76" fill="#E5E5E5"/>
+      <text x="740" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/border/subtle</text>
+      <text x="740" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#E5E5E5</text>
+    </g>
+    <g id="Swatch-border-strong">
+      <rect x="944" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="944" y="264" width="200" height="76" fill="#D4D4D4"/>
+      <text x="956" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/border/strong</text>
+      <text x="956" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#D4D4D4</text>
+    </g>
+    <g id="Swatch-text-muted">
+      <rect x="1160" y="264" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="1160" y="264" width="200" height="76" fill="#8A8A8A"/>
+      <text x="1172" y="362" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/text/muted</text>
+      <text x="1172" y="380" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#8A8A8A</text>
+    </g>
+
+    <!-- Row 2 Swatches -->
+    <g id="Swatch-text-secondary">
+      <rect x="80" y="408" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="80" y="408" width="200" height="76" fill="#525252"/>
+      <text x="92" y="506" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/text/secondary</text>
+      <text x="92" y="524" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#525252</text>
+    </g>
+    <g id="Swatch-accent-hover">
+      <rect x="296" y="408" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="296" y="408" width="200" height="76" fill="#2A2A2A"/>
+      <text x="308" y="506" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/accent/hover</text>
+      <text x="308" y="524" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#2A2A2A</text>
+    </g>
+    <g id="Swatch-accent-primary">
+      <rect x="512" y="408" width="200" height="128" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <rect x="512" y="408" width="200" height="76" fill="#111111"/>
+      <text x="524" y="506" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/accent/primary</text>
+      <text x="524" y="524" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">#111111</text>
+    </g>
+
+    <!-- Semantic Statuses -->
+    <text x="80" y="576" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.1">SEMANTIC STATUSES (STRICTLY FOR STOCK &amp; ORDERS)</text>
+    <g id="Semantic-Success">
+      <rect x="80" y="592" width="308" height="76" rx="2" fill="#F0FDF4" stroke="#E5E5E5"/>
+      <rect x="96" y="610" width="40" height="40" rx="2" fill="#15803D"/>
+      <text x="150" y="622" fill="#15803D" font-family="Inter, sans-serif" font-size="12" font-weight="500">semantic/success</text>
+      <text x="150" y="638" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">#15803D · bg #F0FDF4</text>
+      <text x="150" y="654" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">In Stock, Delivered</text>
+    </g>
+    <g id="Semantic-Warning">
+      <rect x="404" y="592" width="308" height="76" rx="2" fill="#FFFBEB" stroke="#E5E5E5"/>
+      <rect x="420" y="610" width="40" height="40" rx="2" fill="#B45309"/>
+      <text x="474" y="622" fill="#B45309" font-family="Inter, sans-serif" font-size="12" font-weight="500">semantic/warning</text>
+      <text x="474" y="638" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">#B45309 · bg #FFFBEB</text>
+      <text x="474" y="654" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">Low Stock, Pending, Shipped</text>
+    </g>
+    <g id="Semantic-Danger">
+      <rect x="728" y="592" width="308" height="76" rx="2" fill="#FEF2F2" stroke="#E5E5E5"/>
+      <rect x="744" y="610" width="40" height="40" rx="2" fill="#B91C1C"/>
+      <text x="798" y="622" fill="#B91C1C" font-family="Inter, sans-serif" font-size="12" font-weight="500">semantic/danger</text>
+      <text x="798" y="638" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">#B91C1C · bg #FEF2F2</text>
+      <text x="798" y="654" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">Out of Stock, Cancelled, Error</text>
+    </g>
+    <g id="Semantic-Info">
+      <rect x="1052" y="592" width="308" height="76" rx="2" fill="#EFF6FF" stroke="#E5E5E5"/>
+      <rect x="1068" y="610" width="40" height="40" rx="2" fill="#1D4ED8"/>
+      <text x="1122" y="622" fill="#1D4ED8" font-family="Inter, sans-serif" font-size="12" font-weight="500">semantic/info</text>
+      <text x="1122" y="638" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">#1D4ED8 · bg #EFF6FF</text>
+      <text x="1122" y="654" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">Confirmed Order, Chart Accent</text>
+    </g>
+  </g>
+
+  <!-- 02. TYPOGRAPHY SCALE -->
+  <g id="02-Typography">
+    <line x1="80" y1="712" x2="1360" y2="712" stroke="#E5E5E5"/>
+    <text x="80" y="760" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">02. Typography Scale</text>
+    <text x="1360" y="760" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Primary: Inter · Mono: JetBrains Mono</text>
+    <line x1="80" y1="784" x2="1360" y2="784" stroke="#E5E5E5"/>
+
+    <text x="80" y="832" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/Display · 48px · 500</text>
+    <text x="380" y="838" fill="#111111" font-family="Inter, sans-serif" font-size="48" font-weight="500" letter-spacing="-1.4">Everyday Objects, Refined.</text>
+    <line x1="80" y1="860" x2="1360" y2="860" stroke="#E5E5E5"/>
+
+    <text x="80" y="902" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/H1 · 32px · 500</text>
+    <text x="380" y="904" fill="#111111" font-family="Inter, sans-serif" font-size="32" font-weight="500" letter-spacing="-0.6">Minimalist Watches &amp; Accessories</text>
+    <line x1="80" y1="924" x2="1360" y2="924" stroke="#E5E5E5"/>
+
+    <text x="80" y="960" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/H2 · 24px · 500</text>
+    <text x="380" y="962" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">New Arrivals — Dhaka Edit</text>
+    <line x1="80" y1="980" x2="1360" y2="980" stroke="#E5E5E5"/>
+
+    <text x="80" y="1014" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/Body · 14px · 400</text>
+    <text x="380" y="1014" fill="#525252" font-family="Inter, sans-serif" font-size="14">Cash on Delivery available nationwide. Inside Dhaka ৳ 70 · Outside Dhaka ৳ 130.</text>
+    <line x1="80" y1="1032" x2="1360" y2="1032" stroke="#E5E5E5"/>
+
+    <text x="80" y="1066" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/Overline · 11px · 500</text>
+    <text x="380" y="1066" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">WATCHES · GLASSES · CROCS · T-SHIRTS · HOBBY</text>
+    <line x1="80" y1="1084" x2="1360" y2="1084" stroke="#E5E5E5"/>
+  </g>
+
+  <!-- 03. BUTTONS & VARIANT PILLS -->
+  <g id="03-Buttons-And-Pills">
+    <text x="80" y="1142" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">03. Buttons &amp; Variant Selectors</text>
+    <text x="80" y="1174" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.1">BUTTON HIERARCHY</text>
+
+    <!-- Primary -->
+    <rect x="80" y="1192" width="164" height="44" rx="2" fill="#111111"/>
+    <text x="162" y="1219" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now (COD)</text>
+    <!-- Secondary -->
+    <rect x="260" y="1192" width="136" height="44" rx="2" fill="#FFFFFF" stroke="#111111"/>
+    <text x="328" y="1219" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Add to Cart</text>
+    <!-- Ghost -->
+    <rect x="412" y="1192" width="108" height="44" rx="2" fill="#F1F1F1"/>
+    <text x="466" y="1219" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">View All →</text>
+    <!-- Disabled -->
+    <rect x="536" y="1192" width="112" height="44" rx="2" fill="#111111" fill-opacity="0.4"/>
+    <text x="592" y="1219" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Sold Out</text>
+
+    <!-- Variant Pills -->
+    <text x="760" y="1174" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.1">VARIANT PILLS &amp; SWATCHES</text>
+    <rect x="760" y="1192" width="44" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="782" y="1217" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">S</text>
+    <rect x="812" y="1192" width="44" height="40" rx="2" fill="#111111"/>
+    <text x="834" y="1217" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">M</text>
+    <rect x="864" y="1192" width="44" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="886" y="1217" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">L</text>
+    <rect x="916" y="1192" width="44" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="938" y="1217" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">XL</text>
+
+    <circle cx="1010" cy="1212" r="14" fill="#111111"/>
+    <circle cx="1010" cy="1212" r="18" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="1054" cy="1212" r="14" fill="#D4D4D4" stroke="#D4D4D4"/>
+    <circle cx="1096" cy="1212" r="14" fill="#F5F5F0" stroke="#D4D4D4"/>
+    <circle cx="1138" cy="1212" r="14" fill="#4A5548"/>
+  </g>
+
+  <!-- 04. INPUTS & BADGES -->
+  <g id="04-Inputs-And-Badges">
+    <line x1="80" y1="1276" x2="1360" y2="1276" stroke="#E5E5E5"/>
+    <text x="80" y="1322" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">04. Inputs &amp; Badges</text>
+
+    <!-- Inputs -->
+    <text x="80" y="1354" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Default Input</text>
+    <rect x="80" y="1364" width="280" height="44" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="92" y="1391" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14">Full Name (e.g. Tanvir Ahmed)</text>
+
+    <text x="380" y="1354" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Focused Input (BD Phone)</text>
+    <rect x="380" y="1364" width="280" height="44" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+    <text x="392" y="1391" fill="#111111" font-family="Inter, sans-serif" font-size="14">01712345678</text>
+
+    <!-- Status Badges -->
+    <text x="720" y="1354" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Stock &amp; Order Pipeline Badges</text>
+    <rect x="720" y="1370" width="84" height="28" rx="2" fill="#F0FDF4"/>
+    <text x="762" y="1388" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="500">IN STOCK</text>
+
+    <rect x="814" y="1370" width="96" height="28" rx="2" fill="#FFFBEB"/>
+    <text x="862" y="1388" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="11" font-weight="500">ONLY 3 LEFT</text>
+
+    <rect x="920" y="1370" width="96" height="28" rx="2" fill="#EFF6FF"/>
+    <text x="968" y="1388" text-anchor="middle" fill="#1D4ED8" font-family="Inter, sans-serif" font-size="11" font-weight="500">CONFIRMED</text>
+
+    <rect x="1026" y="1370" width="88" height="28" rx="2" fill="#F0FDF4"/>
+    <text x="1070" y="1388" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="500">DELIVERED</text>
+
+    <rect x="1124" y="1370" width="94" height="28" rx="2" fill="#FEF2F2"/>
+    <text x="1171" y="1388" text-anchor="middle" fill="#B91C1C" font-family="Inter, sans-serif" font-size="11" font-weight="500">CANCELLED</text>
+  </g>
+
+  <!-- 05. PRODUCT CARD COMPONENT (4-COL DESKTOP) -->
+  <g id="05-Product-Cards">
+    <line x1="80" y1="1450" x2="1360" y2="1450" stroke="#E5E5E5"/>
+    <text x="80" y="1496" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="500" letter-spacing="-0.3">05. Product Card Component (4-Col Desktop Grid)</text>
+    <text x="1360" y="1496" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Aspect 4:5 · Surface #F7F7F7</text>
+
+    <!-- Card 1 -->
+    <g id="Product-Card-1">
+      <rect x="80" y="1520" width="302" height="160" rx="2" fill="#F7F7F7"/>
+      <rect x="92" y="1532" width="42" height="20" rx="2" fill="#111111"/>
+      <text x="113" y="1546" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">NEW</text>
+      <circle cx="231" cy="1600" r="36" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+      <text x="80" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">WATCHES</text>
+      <text x="80" y="1720" fill="#111111" font-family="Inter, sans-serif" font-size="14">Minimalist Matte Chrono 40mm</text>
+      <text x="80" y="1742" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 2,450</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g id="Product-Card-2">
+      <rect x="406" y="1520" width="302" height="160" rx="2" fill="#F7F7F7"/>
+      <rect x="418" y="1532" width="42" height="20" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <text x="439" y="1546" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="10" font-weight="500">-15%</text>
+      <rect x="418" y="1636" width="278" height="32" rx="2" fill="#111111"/>
+      <text x="557" y="1656" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Quick Add +</text>
+      <text x="406" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">GLASSES</text>
+      <text x="406" y="1720" fill="#111111" font-family="Inter, sans-serif" font-size="14">Acetate Square UV400 Frame</text>
+      <text x="406" y="1742" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,190</text>
+      <text x="466" y="1742" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12" text-decoration="line-through">৳ 1,400</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g id="Product-Card-3">
+      <rect x="732" y="1520" width="302" height="160" rx="2" fill="#F7F7F7"/>
+      <rect x="962" y="1532" width="60" height="20" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+      <text x="992" y="1546" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="10" font-weight="500">▶ VIDEO</text>
+      <text x="732" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">T-SHIRTS</text>
+      <text x="732" y="1720" fill="#111111" font-family="Inter, sans-serif" font-size="14">Heavyweight Boxy Tee — Charcoal</text>
+      <text x="732" y="1742" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 890</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g id="Product-Card-4" opacity="0.65">
+      <rect x="1058" y="1520" width="302" height="160" rx="2" fill="#F7F7F7"/>
+      <rect x="1070" y="1532" width="68" height="20" rx="2" fill="#FEF2F2"/>
+      <text x="1104" y="1546" text-anchor="middle" fill="#B91C1C" font-family="Inter, sans-serif" font-size="10" font-weight="500">SOLD OUT</text>
+      <text x="1058" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">HOBBY</text>
+      <text x="1058" y="1720" fill="#111111" font-family="Inter, sans-serif" font-size="14">1:64 Diecast Collector Model</text>
+      <text x="1058" y="1742" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,650</text>
+    </g>
+  </g>
+</svg>

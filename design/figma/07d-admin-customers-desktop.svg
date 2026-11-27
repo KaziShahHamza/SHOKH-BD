@@ -1,0 +1,77 @@
+<svg width="1440" height="1000" viewBox="0 0 1440 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="Admin-Customers-Desktop-BG" width="1440" height="1000" fill="#F7F7F7"/>
+
+  <g id="01-Admin-Sidebar">
+    <rect width="240" height="1000" fill="#111111"/>
+    <text x="28" y="46" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <text x="28" y="64" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">ADMIN CONSOLE</text>
+    <line x1="28" y1="86" x2="212" y2="86" stroke="#2A2A2A"/>
+
+    <text x="32" y="132" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Dashboard Overview</text>
+    <text x="32" y="172" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Products &amp; Stock</text>
+    <text x="32" y="212" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Orders (COD Pipeline)</text>
+    <rect x="16" y="234" width="208" height="42" rx="2" fill="#FFFFFF"/>
+    <text x="32" y="260" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Customers &amp; COD Risk</text>
+    <text x="32" y="302" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Store &amp; Delivery Settings</text>
+  </g>
+
+  <g id="02-Admin-Topbar">
+    <rect x="240" width="1200" height="72" fill="#FFFFFF"/>
+    <line x1="240" y1="72" x2="1440" y2="72" stroke="#E5E5E5"/>
+    <text x="280" y="44" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Customer Directory &amp; COD Risk Flag</text>
+
+    <rect x="940" y="16" width="260" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="954" y="41" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Search name or BD phone...</text>
+
+    <rect x="1216" y="16" width="184" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="1232" y="41" fill="#111111" font-family="Inter, sans-serif" font-size="13">Filter: All Buyers ▾</text>
+  </g>
+
+  <g id="03-Customers-Table" transform="translate(280, 104)">
+    <rect width="1120" height="840" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
+    <rect width="1120" height="44" fill="#F7F7F7"/>
+    <text x="28" y="27" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">CUSTOMER / PHONE</text>
+    <text x="360" y="27" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">ACCOUNT</text>
+    <text x="510" y="27" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">ORDERS</text>
+    <text x="640" y="27" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">CANCEL / RETURN</text>
+    <text x="820" y="27" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">TOTAL SPENT</text>
+    <text x="1092" y="27" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">COD RISK FLAG</text>
+
+    <!-- Row 1: Good Customer -->
+    <line x1="0" y1="44" x2="1120" y2="44" stroke="#E5E5E5"/>
+    <text x="28" y="80" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Tanvir Ahmed</text>
+    <text x="28" y="100" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">01712345678 · Dhaka</text>
+    <rect x="360" y="70" width="90" height="24" rx="2" fill="#F0FDF4"/>
+    <text x="405" y="86" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">REGISTERED</text>
+    <text x="510" y="88" fill="#111111" font-family="Inter, sans-serif" font-size="13">4 Delivered</text>
+    <text x="640" y="88" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">0 Cancelled · 0 Ret</text>
+    <text x="820" y="88" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="600">৳ 11,420</text>
+    <rect x="972" y="68" width="120" height="32" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="1032" y="88" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Flag Risk</text>
+
+    <!-- Row 2: Flagged High Risk COD Phone -->
+    <line x1="0" y1="126" x2="1120" y2="126" stroke="#E5E5E5"/>
+    <rect y="126" width="1120" height="82" fill="#FEF2F2" fill-opacity="0.4"/>
+    <text x="28" y="162" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Rashed Mia</text>
+    <text x="28" y="182" fill="#B91C1C" font-family="JetBrains Mono, monospace" font-size="11">01911002233 · Gazipur</text>
+    <rect x="360" y="152" width="70" height="24" rx="2" fill="#F1F1F1"/>
+    <text x="395" y="168" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="10" font-weight="500">GUEST</text>
+    <text x="510" y="170" fill="#111111" font-family="Inter, sans-serif" font-size="13">0 Delivered</text>
+    <text x="640" y="170" fill="#B91C1C" font-family="Inter, sans-serif" font-size="13" font-weight="500">2 Cancelled · 2 Ret</text>
+    <text x="820" y="170" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14">৳ 0</text>
+    <rect x="972" y="150" width="120" height="32" rx="2" fill="#B91C1C"/>
+    <text x="1032" y="170" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500">⚠ FLAGGED</text>
+
+    <!-- Row 3 -->
+    <line x1="0" y1="208" x2="1120" y2="208" stroke="#E5E5E5"/>
+    <text x="28" y="244" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Nadia Islam</text>
+    <text x="28" y="264" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">01819223344 · Dhaka</text>
+    <rect x="360" y="234" width="90" height="24" rx="2" fill="#F0FDF4"/>
+    <text x="405" y="250" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">REGISTERED</text>
+    <text x="510" y="252" fill="#111111" font-family="Inter, sans-serif" font-size="13">2 Delivered</text>
+    <text x="640" y="252" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">0 Cancelled · 0 Ret</text>
+    <text x="820" y="252" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="600">৳ 5,340</text>
+    <rect x="972" y="232" width="120" height="32" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
+    <text x="1032" y="252" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Flag Risk</text>
+  </g>
+</svg>
