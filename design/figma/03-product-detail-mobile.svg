@@ -1,148 +1,230 @@
-<svg width="390" height="2340" viewBox="0 0 390 2340" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="PDP-Mobile-BG" width="390" height="2340" fill="#FFFFFF"/>
+<svg width="390" height="3160" viewBox="0 0 390 3160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect id="PDP-Mobile-BG" width="390" height="3160" fill="#F8F9FA"/>
 
   <!-- 01. ANNOUNCEMENT BAR -->
   <g id="01-Mobile-Announcement">
-    <rect width="390" height="32" fill="#111111"/>
-    <text x="195" y="20" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">NATIONWIDE BD DELIVERY · CASH ON DELIVERY</text>
+    <rect width="390" height="32" fill="#1F1F1F"/>
+    <text x="195" y="20" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">NATIONWIDE BD DELIVERY · CASH ON DELIVERY</text>
   </g>
 
   <!-- 02. MOBILE NAVBAR -->
   <g id="02-Mobile-Navbar">
-    <rect y="32" width="390" height="56" fill="#FFFFFF"/>
-    <line x1="0" y1="88" x2="390" y2="88" stroke="#E5E5E5"/>
-    <line x1="16" y1="54" x2="34" y2="54" stroke="#111111" stroke-width="1.5"/>
-    <line x1="16" y1="60" x2="34" y2="60" stroke="#111111" stroke-width="1.5"/>
-    <line x1="16" y1="66" x2="28" y2="66" stroke="#111111" stroke-width="1.5"/>
-    <text x="195" y="66" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="600" letter-spacing="1.6">SHOKH</text>
-    <circle cx="326" cy="59" r="6" stroke="#111111" stroke-width="1.5"/>
-    <line x1="330" y1="63" x2="334" y2="67" stroke="#111111" stroke-width="1.5"/>
-    <rect x="352" y="53" width="15" height="14" rx="1.5" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="370" cy="51" r="7" fill="#111111"/>
-    <text x="370" y="54.5" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="9" font-weight="500">2</text>
+    <rect y="32" width="390" height="56" fill="#F8F9FA"/>
+    <line x1="0" y1="88" x2="390" y2="88" stroke="#DCE0E6"/>
+    <line x1="16" y1="54" x2="34" y2="54" stroke="#1F1F1F" stroke-width="1.5"/>
+    <line x1="16" y1="60" x2="34" y2="60" stroke="#1F1F1F" stroke-width="1.5"/>
+    <line x1="16" y1="66" x2="28" y2="66" stroke="#1F1F1F" stroke-width="1.5"/>
+    <text x="195" y="66" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="18" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <circle cx="326" cy="59" r="6" stroke="#1F1F1F" stroke-width="1.5"/>
+    <line x1="330" y1="63" x2="334" y2="67" stroke="#1F1F1F" stroke-width="1.5"/>
+    <rect x="352" y="53" width="15" height="14" rx="1.5" stroke="#1F1F1F" stroke-width="1.5"/>
+    <circle cx="370" cy="51" r="7" fill="#C8A96B"/>
+    <text x="370" y="54.5" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="9" font-weight="700">2</text>
   </g>
 
-  <!-- 03. SWIPEABLE GALLERY (EMPTY IMAGE FRAME) -->
+  <!-- 03. SWIPEABLE GALLERY + BOTTOM THUMBS -->
   <g id="03-Mobile-Gallery">
-    <rect id="IMG-Mob-PDP-Main" y="88" width="390" height="440" fill="#F7F7F7"/>
-    <text x="195" y="308" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT GALLERY (390 × 440)</text>
+    <rect id="IMG-Mob-PDP-Main" y="88" width="390" height="420" fill="#EEF0F3"/>
+    <text x="195" y="294" text-anchor="middle" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT SLIDER (390 × 420)</text>
+    <text x="195" y="314" text-anchor="middle" fill="#8C969E" font-family="Inter, sans-serif" font-size="11">Tap to open zoom modal</text>
 
-    <!-- Video toggle pill & Counter -->
-    <rect x="16" y="484" width="76" height="28" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="54" y="502" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="10" font-weight="500">▶ VIDEO</text>
+    <!-- Zoom Trigger (Top-Right) -->
+    <rect x="338" y="102" width="36" height="36" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <circle cx="354" cy="118" r="5" stroke="#1F1F1F" stroke-width="1.4"/>
+    <line x1="358" y1="122" x2="362" y2="126" stroke="#1F1F1F" stroke-width="1.4"/>
 
-    <rect x="330" y="484" width="44" height="28" rx="2" fill="#111111"/>
-    <text x="352" y="502" text-anchor="middle" fill="#FFFFFF" font-family="JetBrains Mono, monospace" font-size="10">1 / 4</text>
+    <!-- Left/Right Slider Arrows -->
+    <rect x="12" y="280" width="32" height="32" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <path d="M30 291L25 296L30 301" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="346" y="280" width="32" height="32" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <path d="M360 291L365 296L360 301" stroke="#1F1F1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Dots -->
-    <circle cx="177" cy="500" r="3" fill="#111111"/>
-    <circle cx="189" cy="500" r="3" fill="#D4D4D4"/>
-    <circle cx="201" cy="500" r="3" fill="#D4D4D4"/>
-    <circle cx="213" cy="500" r="3" fill="#D4D4D4"/>
+    <!-- Video pill, Dots & Counter -->
+    <rect x="16" y="466" width="76" height="28" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="54" y="484" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="500">▶ VIDEO</text>
+
+    <rect x="171" y="477" width="16" height="5" rx="2.5" fill="#C8A96B"/>
+    <circle cx="195" cy="479.5" r="2.5" fill="#CBD2D9"/>
+    <circle cx="207" cy="479.5" r="2.5" fill="#CBD2D9"/>
+    <circle cx="219" cy="479.5" r="2.5" fill="#CBD2D9"/>
+
+    <rect x="330" y="466" width="44" height="28" rx="2" fill="#1F1F1F"/>
+    <text x="352" y="484" text-anchor="middle" fill="#F8F9FA" font-family="JetBrains Mono, monospace" font-size="10">1 / 4</text>
+
+    <!-- 4 Compact Thumbnails Below Main Image -->
+    <rect x="16" y="520" width="83" height="64" rx="2" fill="#EEF0F3" stroke="#C8A96B" stroke-width="2"/>
+    <text x="57" y="556" text-anchor="middle" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="9">FRONT</text>
+    <rect x="108" y="520" width="83" height="64" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="149" y="556" text-anchor="middle" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="9">SIDE</text>
+    <rect x="200" y="520" width="83" height="64" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="241" y="556" text-anchor="middle" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="9">WRIST</text>
+    <rect x="292" y="520" width="82" height="64" rx="2" fill="#1F1F1F"/>
+    <polygon points="329,544 341,552 329,560" fill="#C8A96B"/>
   </g>
 
   <!-- 04. MOBILE PURCHASE PANEL -->
-  <g id="04-Mobile-Purchase-Panel">
-    <text x="16" y="564" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">WATCHES · WTC-BLK-40</text>
-    <rect x="304" y="548" width="70" height="22" rx="2" fill="#F0FDF4"/>
-    <text x="339" y="563" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="9" font-weight="500">IN STOCK</text>
+  <g id="04-Mobile-Purchase-Panel" transform="translate(0, 608)">
+    <text x="16" y="20" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="10">WATCHES · WTC-BLK-40</text>
+    <rect x="304" y="4" width="70" height="22" rx="2" fill="#F0FDF4"/>
+    <text x="339" y="19" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="9" font-weight="600">IN STOCK</text>
 
-    <text x="16" y="598" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="500">Minimalist Matte Chrono 40mm</text>
+    <text x="16" y="54" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="22" font-weight="500">Minimalist Matte Chrono 40mm</text>
 
-    <text x="16" y="632" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">৳ 2,450</text>
-    <text x="100" y="631" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14" text-decoration="line-through">৳ 2,900</text>
-    <rect x="162" y="616" width="40" height="20" rx="2" fill="#F1F1F1"/>
-    <text x="182" y="630" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="10" font-weight="500">-15%</text>
+    <text x="16" y="88" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="20" font-weight="600">৳ 2,450</text>
+    <text x="100" y="87" fill="#8C969E" font-family="Inter, sans-serif" font-size="14" text-decoration="line-through">৳ 2,900</text>
+    <rect x="162" y="72" width="40" height="20" rx="2" fill="#C8A96B"/>
+    <text x="182" y="86" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="600">-15%</text>
+
+    <text x="16" y="116" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Brushed 316L steel case · Japanese Miyota quartz</text>
+    <text x="16" y="135" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">chronograph · Sapphire-coated mineral glass.</text>
 
     <!-- Strap Pills -->
-    <text x="16" y="672" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">STRAP: Matte Steel</text>
-    <rect x="16" y="686" width="114" height="38" rx="2" fill="#111111"/>
-    <text x="73" y="710" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Matte Steel</text>
-    <rect x="138" y="686" width="114" height="38" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="195" y="710" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">Black Leather</text>
-    <rect x="260" y="686" width="114" height="38" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="317" y="710" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">Nylon Olive</text>
+    <text x="16" y="168" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">STRAP: Matte Steel</text>
+    <rect x="16" y="182" width="114" height="38" rx="2" fill="#1F1F1F" stroke="#C8A96B" stroke-width="1.5"/>
+    <text x="73" y="206" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="12" font-weight="500">Matte Steel</text>
+    <rect x="138" y="182" width="114" height="38" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="195" y="206" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">Black Leather</text>
+    <rect x="260" y="182" width="114" height="38" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="317" y="206" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">Nylon Olive</text>
 
-    <!-- Dial Swatches -->
-    <text x="16" y="756" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">DIAL: Obsidian Black</text>
-    <circle cx="30" cy="784" r="12" fill="#111111"/>
-    <circle cx="30" cy="784" r="16" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="68" cy="784" r="12" fill="#D4D4D4"/>
-    <circle cx="106" cy="784" r="12" fill="#F5F5F0" stroke="#D4D4D4"/>
+    <!-- Dial Swatches (Slides gallery) -->
+    <text x="16" y="252" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">DIAL: Obsidian Black</text>
+    <text x="150" y="252" fill="#8C969E" font-family="Inter, sans-serif" font-size="10">· Slides image</text>
+    <circle cx="30" cy="280" r="14" stroke="#C8A96B" stroke-width="2"/>
+    <circle cx="30" cy="280" r="10" fill="#1F1F1F"/>
+    <circle cx="68" cy="280" r="11" fill="#CBD2D9"/>
+    <circle cx="106" cy="280" r="11" fill="#EEF0F3" stroke="#CBD2D9"/>
 
     <!-- CTAs -->
-    <rect x="16" y="824" width="358" height="46" rx="2" fill="#111111"/>
-    <text x="195" y="852" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now — Cash on Delivery</text>
+    <rect x="16" y="318" width="358" height="46" rx="2" fill="#C8A96B"/>
+    <text x="195" y="346" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="600">Add to Bag</text>
 
-    <rect x="16" y="880" width="358" height="44" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <text x="195" y="907" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Add to Cart</text>
+    <rect x="16" y="374" width="358" height="46" rx="2" fill="#1F1F1F"/>
+    <text x="195" y="402" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now — Cash on Delivery</text>
 
     <!-- BD Delivery Box -->
-    <rect x="16" y="942" width="358" height="68" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="30" y="968" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Nationwide Bangladesh COD</text>
-    <text x="30" y="990" fill="#525252" font-family="Inter, sans-serif" font-size="11">Dhaka ৳ 70 (1–2d) · Outside ৳ 130 (2–4d)</text>
-
-    <!-- Accordions -->
-    <line x1="16" y1="1034" x2="374" y2="1034" stroke="#E5E5E5"/>
-    <text x="16" y="1062" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Specifications</text>
-    <text x="368" y="1062" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15">−</text>
-    <text x="16" y="1086" fill="#525252" font-family="Inter, sans-serif" font-size="12">40mm 316L Steel · Miyota Quartz · 3ATM</text>
-    <line x1="16" y1="1108" x2="374" y2="1108" stroke="#E5E5E5"/>
-    <text x="16" y="1136" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Delivery &amp; Return Policy</text>
-    <text x="368" y="1136" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15">+</text>
-    <line x1="16" y1="1158" x2="374" y2="1158" stroke="#E5E5E5"/>
+    <rect x="16" y="438" width="358" height="68" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="30" y="464" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Nationwide Bangladesh COD</text>
+    <text x="30" y="486" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Dhaka ৳ 70 (1–2d) · Outside ৳ 130 (2–4d)</text>
   </g>
 
-  <!-- 05. MOBILE YOUTUBE VIDEO -->
-  <g id="05-Mobile-Video">
-    <text x="16" y="1204" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Hands-On Video</text>
-    <rect id="IMG-Mob-PDP-YouTube" x="16" y="1222" width="358" height="200" rx="2" fill="#111111"/>
-    <circle cx="195" cy="1322" r="24" fill="#FFFFFF"/>
-    <polygon points="191,1313 205,1322 191,1331" fill="#111111"/>
-    <text x="195" y="1372" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">YOUTUBE EMBED (16:9)</text>
+  <!-- 05. STARTECH-STYLE SPECIFICATION & EXPANDED DESCRIPTION (MOBILE) -->
+  <g id="05-Mobile-StarTech-Details" transform="translate(16, 1140)">
+    <rect width="358" height="820" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+
+    <!-- Tabs -->
+    <rect width="358" height="48" fill="#EEF0F3"/>
+    <line x1="0" y1="48" x2="358" y2="48" stroke="#DCE0E6"/>
+    <rect x="10" y="8" width="106" height="32" rx="2" fill="#1F1F1F"/>
+    <text x="63" y="28" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="12" font-weight="600">Specification</text>
+    <rect x="124" y="8" width="104" height="32" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="176" y="28" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">Description</text>
+    <rect x="236" y="8" width="112" height="32" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="292" y="28" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">Warranty</text>
+
+    <!-- Spec Table -->
+    <text x="16" y="80" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="16" font-weight="600">Specification</text>
+
+    <rect x="16" y="96" width="326" height="38" fill="#F8F9FA"/>
+    <text x="24" y="119" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Movement</text>
+    <text x="334" y="119" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">Miyota JS25 Quartz</text>
+
+    <line x1="16" y1="172" x2="342" y2="172" stroke="#DCE0E6"/>
+    <text x="24" y="157" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Case</text>
+    <text x="334" y="157" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">40mm 316L Matte Steel</text>
+
+    <rect x="16" y="172" width="326" height="38" fill="#F8F9FA"/>
+    <text x="24" y="195" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Crystal</text>
+    <text x="334" y="195" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">Sapphire-Coated Mineral</text>
+
+    <line x1="16" y1="248" x2="342" y2="248" stroke="#DCE0E6"/>
+    <text x="24" y="233" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Water Proof</text>
+    <text x="334" y="233" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">3 ATM (Splash Resistant)</text>
+
+    <rect x="16" y="248" width="326" height="38" fill="#F8F9FA"/>
+    <text x="24" y="271" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Strap Fit</text>
+    <text x="334" y="271" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">20mm Quick-Release</text>
+
+    <line x1="16" y1="324" x2="342" y2="324" stroke="#DCE0E6"/>
+    <text x="24" y="309" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Warranty</text>
+    <text x="334" y="309" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">1-Year Official Warranty</text>
+
+    <!-- Expanded Description -->
+    <text x="16" y="368" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="16" font-weight="600">Description</text>
+    <text x="16" y="396" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Minimalist Matte Chrono 40mm</text>
+    <text x="16" y="422" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Designed for everyday versatility in Bangladesh,</text>
+    <text x="16" y="440" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">this timepiece pairs a bead-blasted 316L stainless</text>
+    <text x="16" y="458" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">steel case with a glare-free matte dial and slim</text>
+    <text x="16" y="476" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">10.2mm profile for effortless daily comfort.</text>
+
+    <text x="16" y="508" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Swap straps in under 10 seconds with tool-free</text>
+    <text x="16" y="526" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">spring bars. Arrives in a gift-ready SHOKH box</text>
+    <text x="16" y="544" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">with microfiber cloth and warranty card.</text>
+
+    <!-- Feature Cards -->
+    <rect x="16" y="572" width="326" height="104" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
+    <rect x="16" y="572" width="326" height="3" fill="#C8A96B"/>
+    <text x="30" y="600" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">316L Brushed Steel</text>
+    <text x="30" y="622" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Corrosion-resistant surgical steel built for</text>
+    <text x="30" y="640" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">humid weather and everyday wear.</text>
+
+    <rect x="16" y="690" width="326" height="104" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
+    <rect x="16" y="690" width="326" height="3" fill="#C8A96B"/>
+    <text x="30" y="718" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">Gift-Ready Presentation</text>
+    <text x="30" y="740" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Includes rigid SHOKH presentation box and</text>
+    <text x="30" y="758" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">1-year official movement warranty card.</text>
   </g>
 
-  <!-- 06. RELATED PRODUCTS (2-COL MOBILE) -->
-  <g id="06-Mobile-Related">
-    <text x="16" y="1474" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">You May Also Like</text>
-
-    <rect id="IMG-Mob-Rel-1" x="16" y="1494" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="16" y="1726" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">WATCHES</text>
-    <text x="16" y="1744" fill="#111111" font-family="Inter, sans-serif" font-size="13">Steel Mesh 38mm</text>
-    <text x="16" y="1764" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,890</text>
-
-    <rect id="IMG-Mob-Rel-2" x="202" y="1494" width="172" height="214" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="202" y="1726" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500">GLASSES</text>
-    <text x="202" y="1744" fill="#111111" font-family="Inter, sans-serif" font-size="13">Square UV400</text>
-    <text x="202" y="1764" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,190</text>
+  <!-- 06. MOBILE YOUTUBE VIDEO -->
+  <g id="06-Mobile-Video" transform="translate(0, 1996)">
+    <text x="16" y="24" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="18" font-weight="500">Hands-On Video</text>
+    <rect id="IMG-Mob-PDP-YouTube" x="16" y="42" width="358" height="200" rx="2" fill="#1F1F1F"/>
+    <circle cx="195" cy="142" r="24" fill="#C8A96B"/>
+    <polygon points="191,133 205,142 191,151" fill="#1F1F1F"/>
+    <text x="195" y="192" text-anchor="middle" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="10">YOUTUBE EMBED (16:9)</text>
   </g>
 
-  <!-- 07. MOBILE FOOTER -->
-  <g id="07-Mobile-Footer" transform="translate(0, 1820)">
-    <rect width="390" height="520" fill="#111111"/>
-    <text x="16" y="48" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
-    <text x="16" y="76" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist everyday objects &amp; gift goods</text>
-    <text x="16" y="96" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">curated for Bangladesh.</text>
-    <text x="16" y="128" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="11">support@shokh.bd · +880 1XXX-XXXXXX</text>
+  <!-- 07. RELATED PRODUCTS (2-COL MOBILE) -->
+  <g id="07-Mobile-Related" transform="translate(0, 2280)">
+    <text x="16" y="24" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="18" font-weight="500">You May Also Like</text>
 
-    <text x="16" y="176" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SHOP</text>
-    <text x="16" y="204" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">All Products</text>
-    <text x="16" y="230" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches</text>
-    <text x="16" y="256" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="16" y="282" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts · Gift</text>
+    <rect id="IMG-Mob-Rel-1" x="16" y="44" width="172" height="214" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="16" y="276" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="10" font-weight="500">WATCHES</text>
+    <text x="16" y="294" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Steel Mesh 38mm</text>
+    <text x="16" y="314" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">৳ 2,890</text>
 
-    <text x="210" y="176" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SUPPORT</text>
-    <text x="210" y="204" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order</text>
-    <text x="210" y="230" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD</text>
-    <text x="210" y="256" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">7-Day Exchange</text>
-    <text x="210" y="282" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Sign In / Account</text>
+    <rect id="IMG-Mob-Rel-2" x="202" y="44" width="172" height="214" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="202" y="276" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="10" font-weight="500">GLASSES</text>
+    <text x="202" y="294" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Square UV400</text>
+    <text x="202" y="314" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">৳ 1,190</text>
+  </g>
 
-    <rect x="16" y="330" width="358" height="36" rx="2" fill="#1F1F1F" stroke="#2A2A2A"/>
-    <text x="195" y="352" text-anchor="middle" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="11">COD NATIONWIDE · DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
-    <text x="16" y="400" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram  ·  Facebook  ·  YouTube</text>
+  <!-- 08. MOBILE FOOTER -->
+  <g id="08-Mobile-Footer" transform="translate(0, 2640)">
+    <rect width="390" height="520" fill="#1F1F1F"/>
+    <text x="16" y="48" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <text x="16" y="76" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Minimalist everyday objects &amp; gift goods</text>
+    <text x="16" y="96" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">curated for Bangladesh.</text>
+    <text x="16" y="128" fill="#CBD2D9" font-family="JetBrains Mono, monospace" font-size="11">support@shokh.bd · +880 1XXX-XXXXXX</text>
+
+    <text x="16" y="176" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SHOP</text>
+    <text x="16" y="204" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">All Products</text>
+    <text x="16" y="230" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="16" y="256" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="16" y="282" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">T-Shirts · Gift</text>
+
+    <text x="210" y="176" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SUPPORT</text>
+    <text x="210" y="204" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Track Order</text>
+    <text x="210" y="230" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD</text>
+    <text x="210" y="256" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">7-Day Exchange</text>
+    <text x="210" y="282" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Sign In / Account</text>
+
+    <rect x="16" y="330" width="358" height="36" rx="2" fill="#2A2A2A" stroke="#3A3A3A"/>
+    <text x="195" y="352" text-anchor="middle" fill="#C8A96B" font-family="JetBrains Mono, monospace" font-size="11">COD NATIONWIDE · DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
+    <text x="16" y="400" fill="#C8A96B" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram  ·  Facebook  ·  YouTube</text>
 
     <line x1="16" y1="432" x2="374" y2="432" stroke="#2A2A2A"/>
-    <text x="16" y="466" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">© 2026 SHOKH Bangladesh. All rights reserved.</text>
-    <text x="16" y="486" fill="#525252" font-family="Inter, sans-serif" font-size="11">Privacy Policy · Terms · BDT (৳)</text>
+    <text x="16" y="466" fill="#8C969E" font-family="Inter, sans-serif" font-size="11">© 2026 SHOKH Bangladesh. All rights reserved.</text>
+    <text x="16" y="486" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Privacy Policy · Terms · BDT (৳)</text>
   </g>
 </svg>
