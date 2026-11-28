@@ -23,26 +23,25 @@
   <g id="02-Mob-Hero-Slider" transform="translate(0, 88)">
     <defs>
       <linearGradient id="HeroScrimMobile" x1="0" y1="0" x2="0" y2="460" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.58"/>
-        <stop offset="50%" stop-color="#0A0A0A" stop-opacity="0.74"/>
-        <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.78"/>
+        <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.68"/>
+        <stop offset="50%" stop-color="#0A0A0A" stop-opacity="0.82"/>
+        <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.86"/>
       </linearGradient>
     </defs>
 
     <!-- Place/Fill Photo Here -->
-    <rect id="IMG-Mob-Hero-Slide-1" width="390" height="460" fill="#1F1F1F"/>
+    <rect id="IMG-Mob-Hero-Slide-1" width="390" height="460" fill="#181818"/>
 
     <!-- Dark Gradient Scrim Overlay (Keeps Text Readable Over Any Photo) -->
     <rect id="Mob-Hero-Dark-Scrim" width="390" height="460" fill="url(#HeroScrimMobile)"/>
 
-    <text x="16" y="132" fill="#E5E5E5" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1">SLIDE 01 / 04 · AUTO-SLIDE 4.5S</text>
-    <text x="16" y="176" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.8">Objects of</text>
-    <text x="16" y="216" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.8">Everyday Passion.</text>
-    <text x="16" y="252" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="13">Watches, glasses, tees &amp; gift sets — COD</text>
-    <text x="16" y="272" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="13">across all 64 districts of Bangladesh.</text>
+    <text x="16" y="160" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.8">Objects of</text>
+    <text x="16" y="200" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.8">Everyday Passion.</text>
+    <text x="16" y="238" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="13">Watches, glasses, tees &amp; gift sets — COD</text>
+    <text x="16" y="258" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="13">across all 64 districts of Bangladesh.</text>
 
-    <rect x="16" y="302" width="176" height="44" rx="2" fill="#FFFFFF"/>
-    <text x="104" y="329" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Shop Collection →</text>
+    <rect x="16" y="292" width="176" height="44" rx="2" fill="#FFFFFF"/>
+    <text x="104" y="319" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Shop Collection →</text>
 
     <!-- Progress Bars + Arrows -->
     <rect x="16" y="416" width="36" height="3" fill="#FFFFFF" fill-opacity="0.35"/>

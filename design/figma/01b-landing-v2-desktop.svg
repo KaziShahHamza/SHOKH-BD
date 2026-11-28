@@ -29,29 +29,28 @@
   <g id="02-Hero-Slider" transform="translate(0, 108)">
     <defs>
       <linearGradient id="HeroScrimDesktop" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.86"/>
-        <stop offset="48%" stop-color="#0A0A0A" stop-opacity="0.62"/>
-        <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.28"/>
+        <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.90"/>
+        <stop offset="52%" stop-color="#0A0A0A" stop-opacity="0.72"/>
+        <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.42"/>
       </linearGradient>
     </defs>
 
     <!-- Place/Fill Photo Here -->
-    <rect id="IMG-Hero-Slide-1" width="1440" height="600" fill="#1F1F1F"/>
+    <rect id="IMG-Hero-Slide-1" width="1440" height="600" fill="#181818"/>
 
     <!-- Dark Gradient Scrim Overlay (Keeps Text Readable Over Any Photo) -->
     <rect id="Hero-Dark-Scrim" width="1440" height="600" fill="url(#HeroScrimDesktop)"/>
 
     <!-- Editorial Copy Overlay -->
-    <text x="80" y="168" fill="#E5E5E5" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.4">SLIDE 01 / 04  ·  AUTO-SLIDE 4.5S  ·  NEW DROP</text>
-    <text x="80" y="232" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="52" font-weight="500" letter-spacing="-1.2">Objects of Everyday</text>
-    <text x="80" y="294" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="52" font-weight="500" letter-spacing="-1.2">Passion.</text>
-    <text x="80" y="344" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="16">Minimalist watches, UV400 eyewear, heavyweight tees &amp; curated</text>
-    <text x="80" y="368" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="16">gift sets — Cash on Delivery across 64 districts of Bangladesh.</text>
+    <text x="80" y="216" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="52" font-weight="500" letter-spacing="-1.2">Objects of Everyday</text>
+    <text x="80" y="278" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="52" font-weight="500" letter-spacing="-1.2">Passion.</text>
+    <text x="80" y="328" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="16">Minimalist watches, UV400 eyewear, heavyweight tees &amp; curated</text>
+    <text x="80" y="352" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="16">gift sets — Cash on Delivery across 64 districts of Bangladesh.</text>
 
-    <rect x="80" y="408" width="188" height="48" rx="2" fill="#FFFFFF"/>
-    <text x="174" y="437" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Shop Collection →</text>
-    <rect x="284" y="408" width="164" height="48" rx="2" fill="#111111" fill-opacity="0.55" stroke="#FFFFFF" stroke-opacity="0.75"/>
-    <text x="366" y="437" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Explore Gifts</text>
+    <rect x="80" y="396" width="188" height="48" rx="2" fill="#FFFFFF"/>
+    <text x="174" y="425" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">Shop Collection →</text>
+    <rect x="284" y="396" width="164" height="48" rx="2" fill="#111111" fill-opacity="0.65" stroke="#FFFFFF" stroke-opacity="0.8"/>
+    <text x="366" y="425" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Explore Gifts</text>
 
     <!-- Bottom-Left: 4 Progress Bars (Auto-Slide Indicator) -->
     <rect x="80" y="544" width="64" height="3" fill="#FFFFFF" fill-opacity="0.35"/>
@@ -59,7 +58,6 @@
     <rect x="154" y="544" width="64" height="3" fill="#FFFFFF" fill-opacity="0.35"/>
     <rect x="228" y="544" width="64" height="3" fill="#FFFFFF" fill-opacity="0.35"/>
     <rect x="302" y="544" width="64" height="3" fill="#FFFFFF" fill-opacity="0.35"/>
-    <text x="384" y="549" fill="#F5F5F5" font-family="JetBrains Mono, monospace" font-size="10">01 / 04 · AUTO-PLAY</text>
 
     <!-- Bottom-Right: Prev / Next Controls -->
     <rect x="1256" y="516" width="44" height="44" rx="2" fill="#111111" fill-opacity="0.75" stroke="#FFFFFF" stroke-opacity="0.4"/>
