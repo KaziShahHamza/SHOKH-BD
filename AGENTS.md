@@ -5,7 +5,7 @@
 ## 1. Project Identity
 - **Brand Name:** **SHOKH** (meaning *passion / hobby* — styled as clean uppercase `SHOKH` wordmark).
 - **What:** Local Bangladesh-based minimalist e-commerce store selling **Watches, Glasses, T-Shirts, and Gift Products**.
-- **Design Aesthetic:** Clean Monochrome Minimalist (Uniqlo / COS inspired) — white/off-white surfaces, deep charcoal (`#111111`) primary accent, subtle hairline borders (`#E5E5E5`), semantic colors reserved strictly for stock & order statuses.
+- **Design Aesthetic:** Minimal Luxe (Cool Porcelain `#F8F9FA` canvas, `#EEF0F3` surfaces, `#1F1F1F` deep charcoal primary ink, `#C8A96B` brushed gold accent, `#6E7C7C` slate secondary text, `#DCE0E6` hairline borders; semantic colors reserved strictly for stock & order statuses).
 - **Locale & Currency:** English UI, Bangladeshi Taka (**BDT / ৳**), nationwide Bangladesh delivery.
 - **MVP Payment:** Cash on Delivery (**COD**) only. Phase 2: **bKash, Nagad, SSLCommerz / Card**.
 - **Checkout:** Both **Guest Checkout** and **Logged-in Checkout** (saved BD addresses, order history, order tracking).

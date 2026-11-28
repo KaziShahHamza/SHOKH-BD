@@ -6,9 +6,9 @@
 ---
 
 ## 1. Visual Philosophy
-- **Aesthetic:** Clean Monochrome Minimalist (COS / Uniqlo inspired).
-- **Hierarchy via Space & Typography:** Generous whitespace, sharp-to-subtle corners (`2px–4px`), `1px` hairline borders (`#E5E5E5`) instead of heavy drop shadows.
-- **Product-First:** Neutral `#F7F7F7` image containers let Watches, Glasses, T-Shirts, and Gift Products stand out cleanly.
+- **Aesthetic:** Minimal Luxe (Cool Porcelain `#F8F9FA` canvas, `#1F1F1F` deep charcoal, `#C8A96B` brushed gold accent, `#6E7C7C` slate secondary text).
+- **Hierarchy via Space & Typography:** Generous whitespace, sharp-to-subtle corners (`2px–4px`), `1px` hairline borders (`#DCE0E6`) instead of heavy drop shadows.
+- **Product-First:** Neutral `#EEF0F3` image containers let Watches, Glasses, T-Shirts, and Gift Products stand out cleanly.
 - **Currency Formatting:** Always use `৳` prefix with `font-variant-numeric: tabular-nums` (e.g., `৳ 1,850`).
 
 ---
@@ -17,19 +17,20 @@
 
 | Figma Variable | Hex | Usage |
 | :--- | :--- | :--- |
-| `color/bg/primary` | `#FFFFFF` | Main page canvas |
-| `color/bg/surface` | `#F7F7F7` | Product photo containers, admin cards, subtle panels |
-| `color/bg/subtle` | `#F1F1F1` | Hover fills, skeletons, muted tags |
-| `color/bg/inverse` | `#111111` | Announcement bar, primary buttons, dark footer option |
-| `color/text/primary` | `#111111` | Headings, product titles, prices |
-| `color/text/secondary` | `#525252` | Body copy, form labels, secondary nav |
-| `color/text/muted` | `#8A8A8A` | Placeholders, timestamps, disabled labels |
-| `color/text/inverse` | `#FFFFFF` | Text on `#111111` surfaces |
-| `color/border/subtle` | `#E5E5E5` | Dividers, card outlines, table rows |
-| `color/border/strong` | `#D4D4D4` | Form inputs, hover borders |
-| `color/border/focus` | `#111111` | Active focus outlines, selected variant pills |
-| `color/accent/primary` | `#111111` | Primary CTA fill |
-| `color/accent/primaryHover` | `#2A2A2A` | Primary CTA hover |
+| `color/bg/primary` | `#F8F9FA` | Main porcelain page canvas |
+| `color/bg/card` | `#FFFFFF` | Elevated product cards, form panels |
+| `color/bg/surface` | `#EEF0F3` | Product photo containers, admin cards, subtle panels |
+| `color/bg/subtle` | `#E4E7EC` | Hover fills, skeletons, muted tags |
+| `color/bg/inverse` | `#1F1F1F` | Announcement bar, primary dark buttons, footer |
+| `color/text/primary` | `#1F1F1F` | Headings, product titles, prices |
+| `color/text/secondary` | `#6E7C7C` | Body copy, form labels, secondary nav |
+| `color/text/muted` | `#8C969E` | Placeholders, timestamps, disabled labels |
+| `color/text/inverse` | `#F8F9FA` | Text on `#1F1F1F` surfaces |
+| `color/border/subtle` | `#DCE0E6` | Dividers, card outlines, table rows |
+| `color/border/strong` | `#CBD2D9` | Form inputs, hover borders |
+| `color/border/focus` | `#C8A96B` | Active focus outlines, selected variant pills |
+| `color/accent/primary` | `#1F1F1F` | Primary dark CTA fill (`#333333` hover) |
+| `color/accent/gold` | `#C8A96B` | Brushed gold accent — badges, `Add to Bag`, cart badge (`#B59454` hover) |
 | `color/semantic/success` | `#15803D` (bg `#F0FDF4`) | `In Stock`, `Delivered` |
 | `color/semantic/warning` | `#B45309` (bg `#FFFBEB`) | `Low Stock`, `Pending`, `Shipped` |
 | `color/semantic/danger` | `#B91C1C` (bg `#FEF2F2`) | `Out of Stock`, `Cancelled`, validation errors |
