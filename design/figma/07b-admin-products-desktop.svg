@@ -1,148 +1,143 @@
 <svg width="1440" height="1320" viewBox="0 0 1440 1320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Admin-Products-Desktop-BG" width="1440" height="1320" fill="#F7F7F7"/>
+  <rect id="Admin-Products-Desktop-BG" width="1440" height="1320" fill="#F8F9FA"/>
 
   <!-- 01. ADMIN SIDEBAR -->
   <g id="01-Admin-Sidebar">
-    <rect width="240" height="1320" fill="#111111"/>
-    <text x="28" y="46" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
-    <text x="28" y="64" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="10">ADMIN CONSOLE</text>
+    <rect width="240" height="1320" fill="#1F1F1F"/>
+    <text x="28" y="46" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1.6">SHOKH</text>
+    <text x="28" y="64" fill="#C8A96B" font-family="JetBrains Mono, monospace" font-size="10" font-weight="600">ADMIN CONSOLE</text>
     <line x1="28" y1="86" x2="212" y2="86" stroke="#2A2A2A"/>
 
-    <text x="32" y="132" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Dashboard Overview</text>
-    <rect x="16" y="154" width="208" height="42" rx="2" fill="#FFFFFF"/>
-    <text x="32" y="180" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Products &amp; Stock</text>
-    <text x="32" y="222" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="13">Orders (COD Pipeline)</text>
+    <text x="32" y="132" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="13">Dashboard Overview</text>
+    <rect x="16" y="154" width="208" height="42" rx="2" fill="#FFFFFF" stroke="#C8A96B" stroke-width="1.5"/>
+    <text x="32" y="180" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">Products &amp; Stock</text>
+    <text x="32" y="222" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="13">Orders (COD Pipeline)</text>
+    <text x="32" y="262" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="13">Customers &amp; COD Risk</text>
+    <text x="32" y="302" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="13">Store &amp; Delivery Settings</text>
   </g>
 
   <!-- 02. TOP BAR -->
   <g id="02-Admin-Topbar">
     <rect x="240" width="1200" height="72" fill="#FFFFFF"/>
-    <line x1="240" y1="72" x2="1440" y2="72" stroke="#E5E5E5"/>
-    <text x="280" y="44" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Products &amp; Stock Manager</text>
+    <line x1="240" y1="72" x2="1440" y2="72" stroke="#DCE0E6"/>
+    <text x="280" y="44" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="20" font-weight="500">Products &amp; Stock Manager</text>
 
-    <rect x="820" y="16" width="220" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="834" y="41" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Search SKU or title...</text>
+    <rect x="820" y="16" width="220" height="40" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="834" y="41" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Search SKU or title...</text>
 
-    <rect x="1052" y="16" width="148" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="1066" y="41" fill="#111111" font-family="Inter, sans-serif" font-size="13">All Categories ▾</text>
+    <rect x="1052" y="16" width="148" height="40" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="1066" y="41" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">All Categories ▾</text>
 
-    <rect x="1216" y="16" width="184" height="40" rx="2" fill="#111111"/>
-    <text x="1308" y="41" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">+ Add Product</text>
+    <rect x="1216" y="16" width="184" height="40" rx="2" fill="#C8A96B"/>
+    <text x="1308" y="41" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="600">+ Add Product</text>
   </g>
 
   <!-- 03. PRODUCT INVENTORY TABLE -->
   <g id="03-Product-Table">
-    <rect x="280" y="100" width="1120" height="390" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <rect x="280" y="100" width="1120" height="42" fill="#F7F7F7"/>
-    <text x="308" y="126" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">PRODUCT</text>
-    <text x="680" y="126" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">CATEGORY</text>
-    <text x="820" y="126" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">PRICE</text>
-    <text x="960" y="126" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">STOCK</text>
-    <text x="1140" y="126" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">MEDIA</text>
-    <text x="1372" y="126" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500">ACTIONS</text>
+    <rect x="280" y="100" width="1120" height="390" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <rect x="280" y="100" width="1120" height="42" fill="#EEF0F3"/>
+    <text x="308" y="126" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">PRODUCT</text>
+    <text x="680" y="126" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">CATEGORY</text>
+    <text x="820" y="126" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">PRICE</text>
+    <text x="960" y="126" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">STOCK</text>
+    <text x="1140" y="126" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">MEDIA</text>
+    <text x="1372" y="126" text-anchor="end" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500">ACTIONS</text>
 
     <!-- Row 1 -->
-    <line x1="280" y1="142" x2="1400" y2="142" stroke="#E5E5E5"/>
-    <rect id="IMG-Adm-1" x="308" y="156" width="44" height="54" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="368" y="178" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Minimalist Matte Chrono 40mm</text>
-    <text x="368" y="198" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">3 variants · WTC-BLK-40</text>
-    <text x="680" y="188" fill="#525252" font-family="Inter, sans-serif" font-size="13">Watches</text>
-    <text x="820" y="188" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,450</text>
+    <line x1="280" y1="142" x2="1400" y2="142" stroke="#DCE0E6"/>
+    <rect id="IMG-Adm-1" x="308" y="156" width="44" height="54" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="368" y="178" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Minimalist Matte Chrono 40mm</text>
+    <text x="368" y="198" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">3 variants · WTC-BLK-40</text>
+    <text x="680" y="188" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="820" y="188" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 2,450</text>
     <rect x="960" y="170" width="84" height="24" rx="2" fill="#F0FDF4"/>
-    <text x="1002" y="186" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">24 IN STOCK</text>
-    <text x="1140" y="188" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">4 IMG + ▶ YT</text>
-    <text x="1372" y="188" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
+    <text x="1002" y="186" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="600">24 IN STOCK</text>
+    <text x="1140" y="188" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="11">4 IMG + ▶ YT</text>
+    <text x="1372" y="188" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
 
     <!-- Row 2 -->
-    <line x1="280" y1="224" x2="1400" y2="224" stroke="#E5E5E5"/>
-    <rect id="IMG-Adm-2" x="308" y="238" width="44" height="54" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="368" y="260" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Acetate Square UV400 Frame</text>
-    <text x="368" y="280" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">2 variants · GLS-SQR-02</text>
-    <text x="680" y="270" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="820" y="270" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,190</text>
+    <line x1="280" y1="224" x2="1400" y2="224" stroke="#DCE0E6"/>
+    <rect id="IMG-Adm-2" x="308" y="238" width="44" height="54" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="368" y="260" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Acetate Square UV400 Frame</text>
+    <text x="368" y="280" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">2 variants · GLS-SQR-02</text>
+    <text x="680" y="270" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="820" y="270" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,190</text>
     <rect x="960" y="252" width="84" height="24" rx="2" fill="#F0FDF4"/>
-    <text x="1002" y="268" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">16 IN STOCK</text>
-    <text x="1140" y="270" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">3 IMG</text>
-    <text x="1372" y="270" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
+    <text x="1002" y="268" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="600">16 IN STOCK</text>
+    <text x="1140" y="270" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="11">3 IMG</text>
+    <text x="1372" y="270" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
 
     <!-- Row 3 -->
-    <line x1="280" y1="306" x2="1400" y2="306" stroke="#E5E5E5"/>
-    <rect id="IMG-Adm-3" x="308" y="320" width="44" height="54" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="368" y="342" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">1:64 Diecast Collector GT</text>
-    <text x="368" y="362" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">1 variant · HBY-GT-01</text>
-    <text x="680" y="352" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
-    <text x="820" y="352" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,650</text>
+    <line x1="280" y1="306" x2="1400" y2="306" stroke="#DCE0E6"/>
+    <rect id="IMG-Adm-3" x="308" y="320" width="44" height="54" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="368" y="342" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">1:64 Diecast Collector GT</text>
+    <text x="368" y="362" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">1 variant · GFT-GT-01</text>
+    <text x="680" y="352" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Gifts</text>
+    <text x="820" y="352" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">৳ 1,650</text>
     <rect x="960" y="334" width="84" height="24" rx="2" fill="#FFFBEB"/>
-    <text x="1002" y="350" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="10" font-weight="500">2 LEFT</text>
-    <text x="1140" y="352" fill="#525252" font-family="JetBrains Mono, monospace" font-size="11">2 IMG + ▶ YT</text>
-    <text x="1372" y="352" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
+    <text x="1002" y="350" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="10" font-weight="600">2 LEFT</text>
+    <text x="1140" y="352" fill="#6E7C7C" font-family="JetBrains Mono, monospace" font-size="11">2 IMG + ▶ YT</text>
+    <text x="1372" y="352" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit  ·  Stock</text>
   </g>
 
-  <!-- 04. ADD / EDIT PRODUCT FORM (CLOUDINARY + URL + YOUTUBE + VARIANTS) -->
+  <!-- 04. ADD / EDIT PRODUCT FORM -->
   <g id="04-Product-Editor-Form">
-    <rect x="280" y="520" width="1120" height="750" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="308" y="562" fill="#111111" font-family="Inter, sans-serif" font-size="18" font-weight="500">Edit Product — Minimalist Matte Chrono 40mm</text>
-    <rect x="1240" y="538" width="132" height="38" rx="2" fill="#111111"/>
-    <text x="1306" y="562" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">Save Product</text>
+    <rect x="280" y="520" width="1120" height="750" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="308" y="562" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="18" font-weight="500">Edit Product — Minimalist Matte Chrono 40mm</text>
+    <rect x="1240" y="538" width="132" height="38" rx="2" fill="#1F1F1F"/>
+    <text x="1306" y="562" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="13" font-weight="500">Save Product</text>
 
-    <!-- Left Column: Info + Variants -->
-    <text x="308" y="608" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Product Title *</text>
-    <rect x="308" y="618" width="520" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="322" y="644" fill="#111111" font-family="Inter, sans-serif" font-size="13">Minimalist Matte Chrono 40mm</text>
+    <text x="308" y="608" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">Product Title *</text>
+    <rect x="308" y="618" width="520" height="42" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="322" y="644" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Minimalist Matte Chrono 40mm</text>
 
-    <text x="308" y="688" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Category *</text>
-    <rect x="308" y="698" width="250" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="322" y="724" fill="#111111" font-family="Inter, sans-serif" font-size="13">Watches ▾</text>
+    <text x="308" y="688" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">Category *</text>
+    <rect x="308" y="698" width="250" height="42" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="322" y="724" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Watches ▾</text>
 
-    <text x="578" y="688" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Base Price (BDT ৳) *</text>
-    <rect x="578" y="698" width="250" height="42" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="592" y="724" fill="#111111" font-family="Inter, sans-serif" font-size="13">2450</text>
+    <text x="578" y="688" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">Base Price (BDT ৳) *</text>
+    <rect x="578" y="698" width="250" height="42" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="592" y="724" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">2450</text>
 
-    <!-- Variants & Stock Section -->
-    <text x="308" y="782" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Variants &amp; Stock Management</text>
-    <rect x="308" y="800" width="520" height="56" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="324" y="824" fill="#111111" font-family="JetBrains Mono, monospace" font-size="12">WTC-BLK-40</text>
-    <text x="324" y="842" fill="#525252" font-family="Inter, sans-serif" font-size="11">Strap: Matte Steel · Dial: Obsidian</text>
-    <rect x="660" y="812" width="100" height="32" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="710" y="833" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">−   14   +</text>
+    <text x="308" y="782" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Variants &amp; Stock Management</text>
+    <rect x="308" y="800" width="520" height="56" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="324" y="824" fill="#1F1F1F" font-family="JetBrains Mono, monospace" font-size="12">WTC-BLK-40</text>
+    <text x="324" y="842" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Strap: Matte Steel · Dial: Obsidian</text>
+    <rect x="660" y="812" width="100" height="32" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="710" y="833" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">−   14   +</text>
 
-    <rect x="308" y="868" width="520" height="56" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="324" y="892" fill="#111111" font-family="JetBrains Mono, monospace" font-size="12">WTC-LTH-40</text>
-    <text x="324" y="910" fill="#525252" font-family="Inter, sans-serif" font-size="11">Strap: Black Leather · Dial: Obsidian</text>
-    <rect x="660" y="880" width="100" height="32" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="710" y="901" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12">−   10   +</text>
+    <rect x="308" y="868" width="520" height="56" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="324" y="892" fill="#1F1F1F" font-family="JetBrains Mono, monospace" font-size="12">WTC-LTH-40</text>
+    <text x="324" y="910" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">Strap: Black Leather · Dial: Obsidian</text>
+    <rect x="660" y="880" width="100" height="32" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="710" y="901" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12">−   10   +</text>
 
-    <rect x="308" y="940" width="160" height="36" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <text x="388" y="963" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">+ Add Variant</text>
+    <rect x="308" y="940" width="160" height="36" rx="2" fill="#FFFFFF" stroke="#1F1F1F"/>
+    <text x="388" y="963" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">+ Add Variant</text>
 
-    <!-- Right Column: Media (Cloudinary + Direct Image URL + YouTube Video URL) -->
-    <text x="876" y="608" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Product Media (Images &amp; YouTube)</text>
+    <text x="876" y="608" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Product Media (Images &amp; YouTube)</text>
 
-    <!-- Cloudinary Upload Box -->
-    <rect x="876" y="624" width="496" height="86" rx="2" fill="#F7F7F7" stroke="#D4D4D4" stroke-dasharray="4 4"/>
-    <text x="1124" y="662" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Upload Images / Clips to Cloudinary</text>
-    <text x="1124" y="684" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11">Drag &amp; drop or click to upload (WebP/AVIF auto-optimized)</text>
+    <rect x="876" y="624" width="496" height="86" rx="2" fill="#EEF0F3" stroke="#CBD2D9" stroke-dasharray="4 4"/>
+    <text x="1124" y="662" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Upload Images / Clips to Cloudinary</text>
+    <text x="1124" y="684" text-anchor="middle" fill="#8C969E" font-family="Inter, sans-serif" font-size="11">Drag &amp; drop or click to upload (WebP/AVIF auto-optimized)</text>
 
-    <!-- Direct Image URL Input -->
-    <text x="876" y="742" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">Or Paste Image URL</text>
-    <rect x="876" y="752" width="396" height="40" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="890" y="777" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">https://res.cloudinary.com/shokh/...</text>
-    <rect x="1282" y="752" width="90" height="40" rx="2" fill="#111111"/>
-    <text x="1327" y="777" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Add URL</text>
+    <text x="876" y="742" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">Or Paste Image URL</text>
+    <rect x="876" y="752" width="396" height="40" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="890" y="777" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">https://res.cloudinary.com/shokh/...</text>
+    <rect x="1282" y="752" width="90" height="40" rx="2" fill="#1F1F1F"/>
+    <text x="1327" y="777" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="12" font-weight="500">Add URL</text>
 
-    <!-- YouTube Video URL Input -->
-    <text x="876" y="824" fill="#525252" font-family="Inter, sans-serif" font-size="12" font-weight="500">YouTube Product Video URL (Zero-Bandwidth Embed)</text>
-    <rect x="876" y="834" width="396" height="40" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <text x="890" y="859" fill="#111111" font-family="JetBrains Mono, monospace" font-size="11">https://youtu.be/dQw4w9WgXcQ</text>
-    <rect x="1282" y="834" width="90" height="40" rx="2" fill="#FFFFFF" stroke="#111111"/>
-    <text x="1327" y="859" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Preview</text>
+    <text x="876" y="824" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">YouTube Product Video URL (Zero-Bandwidth Embed)</text>
+    <rect x="876" y="834" width="396" height="40" rx="2" fill="#FFFFFF" stroke="#C8A96B" stroke-width="1.5"/>
+    <text x="890" y="859" fill="#1F1F1F" font-family="JetBrains Mono, monospace" font-size="11">https://youtu.be/dQw4w9WgXcQ</text>
+    <rect x="1282" y="834" width="90" height="40" rx="2" fill="#FFFFFF" stroke="#1F1F1F"/>
+    <text x="1327" y="859" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Preview</text>
 
-    <!-- Media Preview Thumbnails -->
-    <rect id="IMG-Adm-Prev-1" x="876" y="900" width="90" height="110" rx="2" fill="#F7F7F7" stroke="#111111"/>
-    <text x="921" y="996" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="9" font-weight="500">PRIMARY</text>
-    <rect id="IMG-Adm-Prev-2" x="980" y="900" width="90" height="110" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <rect id="IMG-Adm-Prev-YT" x="1084" y="900" width="150" height="110" rx="2" fill="#111111"/>
-    <polygon points="1153,944 1171,955 1153,966" fill="#FFFFFF"/>
-    <text x="1159" y="994" text-anchor="middle" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="9">YOUTUBE READY</text>
+    <rect id="IMG-Adm-Prev-1" x="876" y="900" width="90" height="110" rx="2" fill="#EEF0F3" stroke="#C8A96B" stroke-width="2"/>
+    <text x="921" y="996" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="9" font-weight="600">PRIMARY</text>
+    <rect id="IMG-Adm-Prev-2" x="980" y="900" width="90" height="110" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <rect id="IMG-Adm-Prev-YT" x="1084" y="900" width="150" height="110" rx="2" fill="#1F1F1F"/>
+    <polygon points="1153,944 1171,955 1153,966" fill="#C8A96B"/>
+    <text x="1159" y="994" text-anchor="middle" fill="#CBD2D9" font-family="JetBrains Mono, monospace" font-size="9">YOUTUBE READY</text>
   </g>
 </svg>

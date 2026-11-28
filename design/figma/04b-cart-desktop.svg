@@ -1,35 +1,35 @@
 <svg width="1440" height="1340" viewBox="0 0 1440 1340" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Cart-Desktop-BG" width="1440" height="1340" fill="#FFFFFF"/>
+  <rect id="Cart-Desktop-BG" width="1440" height="1340" fill="#F8F9FA"/>
 
   <!-- 01. GLOBAL DESKTOP NAVBAR -->
   <g id="01-Navbar">
-    <rect width="1440" height="36" fill="#111111"/>
-    <text x="720" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
+    <rect width="1440" height="36" fill="#1F1F1F"/>
+    <text x="720" y="22" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
 
-    <rect y="36" width="1440" height="72" fill="#FFFFFF"/>
-    <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
-    <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <rect y="36" width="1440" height="72" fill="#F8F9FA"/>
+    <line x1="0" y1="108" x2="1440" y2="108" stroke="#DCE0E6"/>
+    <text x="80" y="79" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
 
-    <text x="530" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
-    <text x="630" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="724" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
+    <text x="530" y="77" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="630" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="724" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Gifts</text>
 
-    <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
-    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="1300" cy="68" r="4.5" stroke="#111111" stroke-width="1.5"/>
-    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#111111" stroke-width="1.5"/>
-    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#111111" stroke-width="1.5"/>
-    <path d="M1338 65V62C1338 59.8 1339.8 58 1342 58C1344.2 58 1346 59.8 1346 62V65" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="1354" cy="62" r="8" fill="#111111"/>
-    <text x="1354" y="66" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">2</text>
+    <circle cx="1256" cy="71" r="7" stroke="#1F1F1F" stroke-width="1.5"/>
+    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#1F1F1F" stroke-width="1.5"/>
+    <circle cx="1300" cy="68" r="4.5" stroke="#1F1F1F" stroke-width="1.5"/>
+    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#1F1F1F" stroke-width="1.5"/>
+    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#1F1F1F" stroke-width="1.5"/>
+    <path d="M1338 65V62C1338 59.8 1339.8 58 1342 58C1344.2 58 1346 59.8 1346 62V65" stroke="#1F1F1F" stroke-width="1.5"/>
+    <circle cx="1354" cy="62" r="8" fill="#C8A96B"/>
+    <text x="1354" y="66" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="700">2</text>
   </g>
 
   <!-- 02. PAGE HEADER -->
   <g id="02-Cart-Header">
-    <text x="80" y="154" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Home  /  Shopping Bag</text>
-    <text x="80" y="196" fill="#111111" font-family="Inter, sans-serif" font-size="32" font-weight="500" letter-spacing="-0.6">Your Bag (2 items)</text>
-    <text x="1360" y="196" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500" text-decoration="underline">Continue Shopping →</text>
+    <text x="80" y="154" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Home  /  Shopping Bag</text>
+    <text x="80" y="196" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="32" font-weight="500" letter-spacing="-0.6">Your Bag (2 items)</text>
+    <text x="1360" y="196" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500" text-decoration="underline">Continue Shopping →</text>
   </g>
 
   <!-- 03. LEFT COLUMN: FREE SHIPPING + CART ITEMS TABLE -->
@@ -39,114 +39,112 @@
     <text x="104" y="263" fill="#15803D" font-family="Inter, sans-serif" font-size="13" font-weight="500">✓ You unlocked Free Nationwide Bangladesh Shipping (Order over ৳ 3,000)</text>
 
     <!-- Table Header -->
-    <rect x="80" y="300" width="780" height="40" fill="#F7F7F7"/>
-    <line x1="80" y1="300" x2="860" y2="300" stroke="#E5E5E5"/>
-    <line x1="80" y1="340" x2="860" y2="340" stroke="#E5E5E5"/>
-    <text x="96" y="325" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">PRODUCT</text>
-    <text x="480" y="325" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">PRICE</text>
-    <text x="610" y="325" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">QUANTITY</text>
-    <text x="844" y="325" text-anchor="end" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">TOTAL</text>
+    <rect x="80" y="300" width="780" height="40" fill="#EEF0F3"/>
+    <line x1="80" y1="300" x2="860" y2="300" stroke="#DCE0E6"/>
+    <line x1="80" y1="340" x2="860" y2="340" stroke="#DCE0E6"/>
+    <text x="96" y="325" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">PRODUCT</text>
+    <text x="480" y="325" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">PRICE</text>
+    <text x="610" y="325" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">QUANTITY</text>
+    <text x="844" y="325" text-anchor="end" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8">TOTAL</text>
 
     <!-- Item 1 -->
-    <rect id="IMG-Cart-1" x="80" y="364" width="96" height="120" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="196" y="392" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Minimalist Matte Chrono 40mm</text>
-    <text x="196" y="416" fill="#525252" font-family="Inter, sans-serif" font-size="13">Color: Matte Steel · Obsidian</text>
-    <text x="196" y="438" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">SKU: WTC-BLK-40</text>
+    <rect id="IMG-Cart-1" x="80" y="364" width="96" height="120" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="196" y="392" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Minimalist Matte Chrono 40mm</text>
+    <text x="196" y="416" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Color: Matte Steel · Obsidian</text>
+    <text x="196" y="438" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">SKU: WTC-BLK-40</text>
     <rect x="196" y="454" width="76" height="22" rx="2" fill="#F0FDF4"/>
-    <text x="234" y="469" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">IN STOCK</text>
+    <text x="234" y="469" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="600">IN STOCK</text>
 
-    <text x="480" y="394" fill="#111111" font-family="Inter, sans-serif" font-size="14">৳ 2,450</text>
-    <rect x="610" y="372" width="104" height="36" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="662" y="395" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">−    1    +</text>
-    <text x="662" y="430" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" text-decoration="underline">Remove</text>
-    <text x="844" y="394" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 2,450</text>
+    <text x="480" y="394" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14">৳ 2,450</text>
+    <rect x="610" y="372" width="104" height="36" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="662" y="395" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">−    1    +</text>
+    <text x="662" y="430" text-anchor="middle" fill="#8C969E" font-family="Inter, sans-serif" font-size="11" text-decoration="underline">Remove</text>
+    <text x="844" y="394" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 2,450</text>
 
-    <line x1="80" y1="508" x2="860" y2="508" stroke="#E5E5E5"/>
+    <line x1="80" y1="508" x2="860" y2="508" stroke="#DCE0E6"/>
 
     <!-- Item 2 -->
-    <rect id="IMG-Cart-2" x="80" y="532" width="96" height="120" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="196" y="560" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Acetate Square UV400 Frame</text>
-    <text x="196" y="584" fill="#525252" font-family="Inter, sans-serif" font-size="13">Finish: Matte Black</text>
-    <text x="196" y="606" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">SKU: GLS-SQ-01</text>
+    <rect id="IMG-Cart-2" x="80" y="532" width="96" height="120" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="196" y="560" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Acetate Square UV400 Frame</text>
+    <text x="196" y="584" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Finish: Matte Black</text>
+    <text x="196" y="606" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">SKU: GLS-SQ-01</text>
     <rect x="196" y="622" width="76" height="22" rx="2" fill="#F0FDF4"/>
-    <text x="234" y="637" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="500">IN STOCK</text>
+    <text x="234" y="637" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="10" font-weight="600">IN STOCK</text>
 
-    <text x="480" y="562" fill="#111111" font-family="Inter, sans-serif" font-size="14">৳ 1,190</text>
-    <rect x="610" y="540" width="104" height="36" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="662" y="563" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13">−    1    +</text>
-    <text x="662" y="598" text-anchor="middle" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" text-decoration="underline">Remove</text>
-    <text x="844" y="562" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 1,190</text>
+    <text x="480" y="562" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14">৳ 1,190</text>
+    <rect x="610" y="540" width="104" height="36" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="662" y="563" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">−    1    +</text>
+    <text x="662" y="598" text-anchor="middle" fill="#8C969E" font-family="Inter, sans-serif" font-size="11" text-decoration="underline">Remove</text>
+    <text x="844" y="562" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="600">৳ 1,190</text>
 
-    <line x1="80" y1="676" x2="860" y2="676" stroke="#E5E5E5"/>
+    <line x1="80" y1="676" x2="860" y2="676" stroke="#DCE0E6"/>
 
     <!-- Delivery & Policy Strip -->
-    <rect x="80" y="700" width="780" height="58" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="104" y="734" fill="#525252" font-family="Inter, sans-serif" font-size="12">All-Bangladesh Cash on Delivery  ·  Inside Dhaka ৳ 70  ·  Outside Dhaka ৳ 130  ·  7-Day Easy Exchange</text>
+    <rect x="80" y="700" width="780" height="58" rx="2" fill="#EEF0F3" stroke="#DCE0E6"/>
+    <text x="104" y="734" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">All-Bangladesh Cash on Delivery  ·  Inside Dhaka ৳ 70  ·  Outside Dhaka ৳ 130  ·  7-Day Easy Exchange</text>
   </g>
 
   <!-- 04. RIGHT COLUMN: ORDER SUMMARY -->
   <g id="04-Cart-Summary-Col">
-    <rect x="900" y="236" width="460" height="460" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="932" y="280" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Order Summary</text>
-    <line x1="932" y1="302" x2="1328" y2="302" stroke="#E5E5E5"/>
+    <rect x="900" y="236" width="460" height="460" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="932" y="280" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="20" font-weight="500">Order Summary</text>
+    <line x1="932" y1="302" x2="1328" y2="302" stroke="#DCE0E6"/>
 
-    <text x="932" y="340" fill="#525252" font-family="Inter, sans-serif" font-size="14">Subtotal (2 items)</text>
-    <text x="1328" y="340" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">৳ 3,640</text>
+    <text x="932" y="340" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="14">Subtotal (2 items)</text>
+    <text x="1328" y="340" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">৳ 3,640</text>
 
-    <text x="932" y="376" fill="#525252" font-family="Inter, sans-serif" font-size="14">Estimated Delivery</text>
+    <text x="932" y="376" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="14">Estimated Delivery</text>
     <text x="1328" y="376" text-anchor="end" fill="#15803D" font-family="Inter, sans-serif" font-size="14" font-weight="500">FREE (Over ৳ 3,000)</text>
 
-    <text x="932" y="406" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Inside Dhaka ৳ 70 · Outside Dhaka ৳ 130 (confirmed at checkout)</text>
+    <text x="932" y="406" fill="#8C969E" font-family="Inter, sans-serif" font-size="12">Inside Dhaka ৳ 70 · Outside Dhaka ৳ 130 (confirmed at checkout)</text>
 
-    <line x1="932" y1="432" x2="1328" y2="432" stroke="#D4D4D4"/>
+    <line x1="932" y1="432" x2="1328" y2="432" stroke="#CBD2D9"/>
 
-    <text x="932" y="472" fill="#111111" font-family="Inter, sans-serif" font-size="16" font-weight="500">Estimated Total (COD)</text>
-    <text x="1328" y="472" text-anchor="end" fill="#111111" font-family="Inter, sans-serif" font-size="24" font-weight="600">৳ 3,640</text>
+    <text x="932" y="472" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="16" font-weight="500">Estimated Total (COD)</text>
+    <text x="1328" y="472" text-anchor="end" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="24" font-weight="600">৳ 3,640</text>
 
-    <rect x="932" y="510" width="396" height="48" rx="2" fill="#111111"/>
-    <text x="1130" y="539" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Proceed to Checkout →</text>
+    <rect x="932" y="510" width="396" height="48" rx="2" fill="#1F1F1F"/>
+    <text x="1130" y="539" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="14" font-weight="500">Proceed to Checkout →</text>
 
-    <rect x="932" y="572" width="396" height="44" rx="2" fill="#FFFFFF" stroke="#D4D4D4"/>
-    <text x="1130" y="599" text-anchor="middle" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Continue Shopping</text>
+    <rect x="932" y="572" width="396" height="44" rx="2" fill="#FFFFFF" stroke="#CBD2D9"/>
+    <text x="1130" y="599" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13" font-weight="500">Continue Shopping</text>
 
-    <text x="1130" y="652" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">PAYMENT: CASH ON DELIVERY (COD)</text>
+    <text x="1130" y="652" text-anchor="middle" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">PAYMENT: CASH ON DELIVERY (COD)</text>
   </g>
 
   <!-- 05. FOOTER (EXACT GLOBAL DESKTOP FOOTER) -->
   <g id="05-Footer" transform="translate(0, 940)">
-    <rect width="1440" height="400" fill="#111111"/>
-    <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
-    <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp;</text>
-    <text x="80" y="128" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">gift essentials curated for Bangladesh.</text>
-    <text x="80" y="168" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
-    <text x="80" y="190" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
-    <text x="80" y="226" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
+    <rect width="1440" height="400" fill="#1F1F1F"/>
+    <text x="80" y="76" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="80" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Minimalist watches, glasses, t-shirts &amp;</text>
+    <text x="80" y="128" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">gift essentials curated for Bangladesh.</text>
+    <text x="80" y="168" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
+    <text x="80" y="190" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
+    <text x="80" y="226" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
 
-    <text x="520" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">SHOP</text>
-    <text x="520" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">All Products</text>
-    <text x="520" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches</text>
-    <text x="520" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="520" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="520" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Gift Products</text>
+    <text x="520" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">SHOP</text>
+    <text x="520" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">All Products</text>
+    <text x="520" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="520" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="520" y="192" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="520" y="220" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Gift Products</text>
 
-    <text x="790" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
-    <text x="790" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order</text>
-    <text x="790" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD Rates</text>
-    <text x="790" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">7-Day Easy Exchange</text>
-    <text x="790" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Size &amp; Fit Guide</text>
-    <text x="790" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">FAQ &amp; Contact</text>
+    <text x="790" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
+    <text x="790" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Track Order</text>
+    <text x="790" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD Rates</text>
+    <text x="790" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">7-Day Easy Exchange</text>
+    <text x="790" y="192" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Size &amp; Fit Guide</text>
+    <text x="790" y="220" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">FAQ &amp; Contact</text>
 
-    <text x="1080" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">ACCOUNT &amp; PAYMENT</text>
-    <text x="1080" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Sign In / Register</text>
-    <text x="1080" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses</text>
-    <text x="1080" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Order History</text>
-    <rect x="1080" y="190" width="208" height="30" rx="2" fill="#1F1F1F" stroke="#2A2A2A"/>
-    <text x="1184" y="209" text-anchor="middle" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="11">CASH ON DELIVERY (COD)</text>
-    <text x="1080" y="242" fill="#525252" font-family="Inter, sans-serif" font-size="11">bKash · Nagad · Card (Coming Soon)</text>
+    <text x="1080" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">ACCOUNT &amp; PAYMENT</text>
+    <text x="1080" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Sign In / Register</text>
+    <text x="1080" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses</text>
+    <text x="1080" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Order History</text>
+    <text x="1080" y="196" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">bKash · Nagad · Card (Coming Soon)</text>
 
     <line x1="80" y1="316" x2="1360" y2="316" stroke="#2A2A2A"/>
-    <text x="80" y="356" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh. All rights reserved.</text>
-    <text x="720" y="356" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Privacy Policy  ·  Terms of Service</text>
-    <text x="1360" y="356" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · INSIDE DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
+    <text x="80" y="356" fill="#8C969E" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh. All rights reserved.</text>
+    <text x="720" y="356" text-anchor="middle" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Privacy Policy  ·  Terms of Service</text>
+    <text x="1360" y="356" text-anchor="end" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · INSIDE DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
   </g>
 </svg>
