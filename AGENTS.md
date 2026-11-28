@@ -26,8 +26,11 @@
 - **Hosting & Domain:** Both Next.js and Express API deployed on **Vercel**. Custom domain DNS managed on **Hostinger** (Shared Business plan). Business email via **Gmail**.
 
 ## 3. Current Project Phase & Strict Gate
-- **Current Phase:** **Phase 0 — Planning & UI/UX Design in Figma**.
-- **Strict Rule:** Do **NOT** scaffold or build Next.js/Express application pages until the corresponding Figma designs are explicitly **Approved** by the user in `docs/figma-workflow.md`.
+- **Current Phase:** **Phase 1 — MVP Implementation (`feat/monorepo-setup` next)** — All Phase 0 Figma designs (38+ Desktop & Mobile SVGs under `design/figma/*.svg`) are **Approved** in `docs/figma-workflow.md`.
+- **Finalized Design Decisions (Locked in `design/tokens.json` & `design/figma/*.svg`):**
+  - **Palette:** Minimal Luxe (Cool Porcelain `#F8F9FA` bg, `#FFFFFF` cards/inputs, `#EEF0F3` image frames, `#1F1F1F` charcoal primary ink/bars/COD CTAs, `#C8A96B` brushed gold accents/Add to Bag/badges/focus rings, `#6E7C7C` secondary, `#DCE0E6` borders).
+  - **Categories / Navbar:** `Watches`, `Glasses`, `T-Shirts`, `Gifts` (no Crocs/Hobby; footer has no COD boxes).
+  - **Product Detail Page (`/product/[slug]`):** Thumbnails positioned **below** the main image (`03-product-detail-*.svg`), clicking color swatches **slides** the gallery image, clicking the main image opens the **Image Lightbox & Zoom Modal** (`03c-product-image-modal.svg` with Zoom In/Out + Prev/Next arrows), and a full-width **StarTech-style Specification & Expanded Description** tabbed section sits below the product hero.
 
 ## 4. Figma-First UI/UX Workflow (Mandatory Rules)
 1. **Desktop + Mobile Always:** Whenever delivering Figma-pasteable code for any page or section, **ALWAYS provide BOTH Desktop (`1440px`) and Mobile (`390px`) views**.

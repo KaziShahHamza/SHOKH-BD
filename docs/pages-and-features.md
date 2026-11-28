@@ -17,7 +17,7 @@
 
 ### 2.1 Landing Page (`/`)
 1. **Hero Slider:** Full-bleed auto-sliding hero (4 slides with smooth crossfade, `← / →` controls, progress bars, dark gradient scrim for readability, primary CTA).
-2. **Category Showcase Grid:** 4-item minimalist grid (`Watches`, `Glasses`, `T-Shirts`, `Gift`) with clean typography overlays and subtle image scale on hover.
+2. **Category Showcase Grid:** 4-item minimalist grid (`Watches`, `Glasses`, `T-Shirts`, `Gifts`) with clean typography overlays and subtle image scale on hover.
 3. **Featured / New Arrivals:** 4-column desktop / 2-column mobile product grid with secondary image crossfade on hover, BDT price (`৳`), and quick-view / quick-add affordance.
 4. **Value & Delivery Strip:** 4 minimal icon+text items (*All-Bangladesh Delivery*, *Cash on Delivery*, *Quality Checked*, *Easy Support*).
 5. **Curated Spotlight / Video Banner (Optional):** Highlighting a flagship watch/gift item or brand story.
@@ -30,16 +30,19 @@
 - **Product Grid:** 4-column desktop / 2-column mobile with skeleton loading states, pagination / Load More, and clean empty state.
 
 ### 2.3 Product Detail Page (`/product/[slug]`)
-- **Media Gallery:**
-  - Main large viewport + thumbnail strip (desktop left/bottom, mobile swipeable carousel with dots).
+- **Media Gallery & Lightbox Modal:**
+  - Main large slider viewport with **4 thumbnails positioned below** on both Desktop and Mobile, plus left/right slider arrows and active slide dots.
+  - **Color-to-Image Sliding:** Clicking a color swatch smoothly slides the main gallery to that variant's image.
+  - **Image Lightbox & Zoom Modal:** Clicking the main product image (or zoom trigger icon) opens a full-screen dark lightbox modal with **Zoom In / Zoom Out / Reset** controls, **Prev / Next (`‹` / `›`) arrow buttons**, and bottom thumbnail navigation.
   - Supports **Cloudinary images**, **external image URLs**, and **YouTube video embeds** (shown with a crisp play badge in thumbnails; clicking loads lite-YouTube player inline).
 - **Purchase Panel:**
-  - Breadcrumb (`Home / Category / Product`), Title, SKU, BDT Price (`৳`) + Compare-at price if discounted.
-  - Dynamic **Variant Selector** (e.g., Size pills `S / M / L / XL` or `40 / 41 / 42 / 43`, Color swatches, Strap/Frame options).
+  - Breadcrumb (`Home / Category / Product`), Title, SKU, BDT Price (`৳`) + Compare-at price + `-15%` `#C8A96B` discount badge.
+  - Dynamic **Variant Selector** (e.g., Size/Edition pills, Color swatches that slide the gallery).
   - Live **Stock Badge** (`In Stock`, `Only X left`, `Out of Stock`).
-  - Quantity selector + `Add to Cart` (outline/secondary) + `Order Now — Cash on Delivery` (primary `#111111` CTA).
-- **Details Accordions:** Description, Specifications table (`specs`), Delivery Info (Inside Dhaka vs. Outside Dhaka fees & estimated days).
-- **Related Products:** 4-item horizontal/grid row from the same category.
+  - Quantity selector + `Add to Bag` (`#C8A96B` Brushed Gold) + `Order Now — Cash on Delivery` (primary `#1F1F1F` CTA) + BD Delivery info box.
+- **StarTech-Style Full-Width Details Section (Below Product Hero):**
+  - Tabbed full-width section (`Specification` · `Description` · `Video` · `Warranty & Delivery`) with a structured key-value Specification table, expanded multi-paragraph editorial Description, and 3 feature highlight cards.
+- **Related Products:** 4-item Desktop / 2-item Mobile grid from the store catalog.
 
 ### 2.4 Checkout (`/checkout`) & Order Tracking (`/order/[orderNumber]`)
 - **Checkout Mode:** Works seamlessly for **Guests** (no login wall) AND **Logged-in Users** (auto-fills saved default address + lets them pick from saved addresses or save a new one).
