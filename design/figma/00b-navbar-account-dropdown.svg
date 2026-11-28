@@ -13,11 +13,10 @@
     <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
     <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
 
-    <text x="486" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
-    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
-    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+    <text x="530" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="630" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="724" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
 
     <!-- Search, Active Account Icon, Cart -->
     <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
@@ -55,11 +54,10 @@
     <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
     <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
 
-    <text x="486" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
-    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
-    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+    <text x="530" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="630" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="724" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
 
     <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
     <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
@@ -109,9 +107,8 @@
     <text x="24" y="92" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">SHOP CATEGORIES</text>
     <text x="24" y="124" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Watches</text>
     <text x="24" y="156" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Glasses</text>
-    <text x="24" y="188" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Crocs</text>
-    <text x="24" y="220" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">T-Shirts</text>
-    <text x="24" y="252" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Hobby</text>
+    <text x="24" y="188" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">T-Shirts</text>
+    <text x="24" y="220" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Gift</text>
 
     <line x1="24" y1="282" x2="296" y2="282" stroke="#E5E5E5"/>
     <text x="24" y="312" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">ACCOUNT &amp; TRACKING</text>
@@ -134,7 +131,7 @@
     <line x1="0" y1="68" x2="320" y2="68" stroke="#E5E5E5"/>
 
     <text x="24" y="102" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">SHOP CATEGORIES</text>
-    <text x="24" y="132" fill="#111111" font-family="Inter, sans-serif" font-size="14">Watches · Glasses · Crocs · Tees · Hobby</text>
+    <text x="24" y="132" fill="#111111" font-family="Inter, sans-serif" font-size="14">Watches · Glasses · Tees · Gift</text>
 
     <line x1="24" y1="156" x2="296" y2="156" stroke="#E5E5E5"/>
     <text x="24" y="186" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1">MY ACCOUNT</text>

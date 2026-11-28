@@ -16,9 +16,9 @@
 
 | # | Deliverable / Page | Route | Desktop (`1440px`) | Mobile (`390px`) | Status | Notes |
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
-| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` (`00-design-system-*.svg`) |
+| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` — Minimal Luxe (`#F8F9FA`, `#1F1F1F`, `#C8A96B`, `#6E7C7C`) (`00g-minimal-luxe-final.svg`) |
 | 0b | **Navbar Account Dropdown** (Logged-out + Logged-in + Guest Track Order) | — | ✅ | ✅ | `Approved` | Desktop dropdown + Mobile menu drawer (`00b-navbar-account-dropdown.svg`) |
-| 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | Hero, Bento Categories, Featured, Video Spotlight, Footer (`01-landing-*.svg`) |
+| 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | 4-slide auto-sliding hero, 4-category showcase, New Arrivals, Footer (`01-landing-*.svg`) |
 | 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
 | 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
 | 4a | **Checkout Page** | `/checkout` | ✅ | ✅ | `Approved` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, COD summary (`04a-checkout-*.svg`) |

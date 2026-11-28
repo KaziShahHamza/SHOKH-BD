@@ -134,7 +134,7 @@
     <line x1="80" y1="1032" x2="1360" y2="1032" stroke="#E5E5E5"/>
 
     <text x="80" y="1066" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">Text/Overline · 11px · 500</text>
-    <text x="380" y="1066" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">WATCHES · GLASSES · CROCS · T-SHIRTS · HOBBY</text>
+    <text x="380" y="1066" fill="#525252" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">WATCHES · GLASSES · T-SHIRTS · GIFT</text>
     <line x1="80" y1="1084" x2="1360" y2="1084" stroke="#E5E5E5"/>
   </g>
 
@@ -251,7 +251,7 @@
       <rect x="1058" y="1520" width="302" height="160" rx="2" fill="#F7F7F7"/>
       <rect x="1070" y="1532" width="68" height="20" rx="2" fill="#FEF2F2"/>
       <text x="1104" y="1546" text-anchor="middle" fill="#B91C1C" font-family="Inter, sans-serif" font-size="10" font-weight="500">SOLD OUT</text>
-      <text x="1058" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">HOBBY</text>
+      <text x="1058" y="1700" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">GIFT</text>
       <text x="1058" y="1720" fill="#111111" font-family="Inter, sans-serif" font-size="14">1:64 Diecast Collector Model</text>
       <text x="1058" y="1742" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,650</text>
     </g>
