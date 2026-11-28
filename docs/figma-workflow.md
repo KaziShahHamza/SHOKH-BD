@@ -16,11 +16,12 @@
 
 | # | Deliverable / Page | Route | Desktop (`1440px`) | Mobile (`390px`) | Status | Notes |
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
-| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` — Minimal Luxe (`#F8F9FA`, `#1F1F1F`, `#C8A96B`, `#6E7C7C`) (`00g-minimal-luxe-final.svg`) |
-| 0b | **Navbar Account Dropdown** (Logged-out + Logged-in + Guest Track Order) | — | ✅ | ✅ | `Approved` | Desktop dropdown + Mobile menu drawer (`00b-navbar-account-dropdown.svg`) |
-| 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | 4-slide auto-sliding hero, 4-category showcase, New Arrivals, Footer (`01-landing-*.svg`) |
-| 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
-| 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
+| 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` — Minimal Luxe (`#F8F9FA`, `#1F1F1F`, `#C8A96B`, `#6E7C7C`), `00-design-system-*.svg`, `00-global-components.svg` (`Gifts` nav, no footer COD boxes) |
+| 0b | **Navbar Account Dropdown** (Logged-out + Logged-in + Guest Track Order) | — | ✅ | ✅ | `Approved` | Desktop dropdown + Mobile menu drawer (`00b-navbar-account-dropdown.svg`, `Gifts` nav) |
+| 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | 4-slide auto-sliding hero, 4-category showcase (`Watches`, `Glasses`, `T-Shirts`, `Gifts`), New Arrivals, 1:1 Global Footer (`01-landing-*.svg`) |
+| 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs (`All`, `Watches`, `Glasses`, `T-Shirts`, `Gifts`), Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
+| 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Bottom thumbnails, color-to-image sliding, StarTech-style Specification & Description tabs, YouTube embed, 1:1 Global Footer (`03-product-detail-*.svg`) |
+| 3c | **Product Image Lightbox & Zoom Modal** | `/product/[slug]` (modal) | ✅ | ✅ | `Approved` | Click main image to open; Zoom In/Out (`−` / `+` / Reset) + Prev/Next (`‹` / `›`) arrows + thumbnail strip (`03c-product-image-modal.svg`) |
 | 4a | **Checkout Page** | `/checkout` | ✅ | ✅ | `Approved` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, COD summary (`04a-checkout-*.svg`) |
 | 4b | **Shopping Cart Page** | `/cart` | ✅ | ✅ | `Approved` | Full page with Navbar, Footer, free-shipping bar, steppers & summary (`04b-cart-*.svg`) |
 | 4c | **Order Tracking & Guest Lookup** | `/track-order`, `/order/[id]` | ✅ | ✅ | `Approved` | Order Number + BD Phone lookup card + 4-step COD timeline (`04c-order-tracking-*.svg`) |
