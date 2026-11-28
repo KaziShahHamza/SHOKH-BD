@@ -3,7 +3,7 @@
 
   <!-- 00. HEADER -->
   <g id="00-Mobile-Header">
-    <text x="16" y="40" fill="#8C969E" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1.2">DESIGN SYSTEM V1.0 · MOBILE 390PX</text>
+    <text x="16" y="40" fill="#8C969E" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="1.2">DESIGN SYSTEM V1.1 · MINIMAL LUXE · MOBILE 390PX</text>
     <text x="16" y="78" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="32" font-weight="500" letter-spacing="-0.8">SHOKH</text>
     <text x="16" y="100" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">4 COL · GUTTER 16PX · MARGIN 16PX</text>
     <line x1="16" y1="118" x2="374" y2="118" stroke="#DCE0E6"/>
@@ -25,9 +25,9 @@
     <text x="147" y="243" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="10">#EEF0F3</text>
 
     <rect x="262" y="168" width="112" height="84" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
-    <rect x="262" y="168" width="112" height="44" fill="#1F1F1F"/>
-    <text x="270" y="229" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">accent/primary</text>
-    <text x="270" y="243" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="10">#1F1F1F</text>
+    <rect x="262" y="168" width="112" height="44" fill="#C8A96B"/>
+    <text x="270" y="229" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="11" font-weight="500">accent/gold</text>
+    <text x="270" y="243" fill="#947438" font-family="JetBrains Mono, monospace" font-size="10">#C8A96B</text>
 
     <rect x="16" y="264" width="112" height="84" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
     <rect x="16" y="264" width="112" height="44" fill="#15803D"/>
@@ -64,8 +64,8 @@
     <rect x="16" y="598" width="358" height="44" rx="2" fill="#1F1F1F"/>
     <text x="195" y="625" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now — Cash on Delivery</text>
 
-    <rect x="16" y="652" width="358" height="44" rx="2" fill="#F8F9FA" stroke="#1F1F1F"/>
-    <text x="195" y="679" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="500">Add to Cart</text>
+    <rect x="16" y="652" width="358" height="44" rx="2" fill="#C8A96B"/>
+    <text x="195" y="679" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="600">Add to Bag</text>
 
     <rect x="16" y="708" width="83" height="40" rx="2" fill="#F8F9FA" stroke="#CBD2D9"/>
     <text x="57" y="733" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">S</text>
@@ -83,7 +83,7 @@
     <text x="16" y="806" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="18" font-weight="500">04. Inputs &amp; Badges</text>
 
     <text x="16" y="832" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12" font-weight="500">BD Phone Number</text>
-    <rect x="16" y="840" width="358" height="44" rx="2" fill="#F8F9FA" stroke="#1F1F1F"/>
+    <rect x="16" y="840" width="358" height="44" rx="2" fill="#FFFFFF" stroke="#C8A96B" stroke-width="1.5"/>
     <text x="28" y="867" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14">01712345678</text>
 
     <rect x="16" y="900" width="76" height="24" rx="2" fill="#F0FDF4"/>
@@ -106,8 +106,8 @@
 
     <!-- Card 1 -->
     <rect x="16" y="1000" width="172" height="140" rx="2" fill="#EEF0F3"/>
-    <rect x="24" y="1008" width="36" height="18" rx="2" fill="#1F1F1F"/>
-    <text x="42" y="1020" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="9" font-weight="500">NEW</text>
+    <rect x="24" y="1008" width="36" height="18" rx="2" fill="#C8A96B"/>
+    <text x="42" y="1020" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="9" font-weight="600">NEW</text>
     <circle cx="102" cy="1070" r="28" fill="#F8F9FA" stroke="#1F1F1F" stroke-width="3"/>
     <text x="16" y="1158" fill="#8C969E" font-family="Inter, sans-serif" font-size="10" font-weight="500">WATCHES</text>
     <text x="16" y="1176" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Matte Chrono 40mm</text>

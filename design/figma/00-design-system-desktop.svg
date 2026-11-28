@@ -3,9 +3,9 @@
 
   <!-- 00. HEADER -->
   <g id="00-Header">
-    <text x="80" y="72" fill="#8C969E" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.5">DESIGN SYSTEM V1.0 · SYNCED WITH DESIGN/TOKENS.JSON</text>
+    <text x="80" y="72" fill="#8C969E" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.5">DESIGN SYSTEM V1.1 · MINIMAL LUXE · SYNCED WITH DESIGN/TOKENS.JSON</text>
     <text x="80" y="128" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="48" font-weight="500" letter-spacing="-1.4">SHOKH</text>
-    <text x="275" y="124" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="14" font-weight="400">Clean Monochrome Minimalist · BDT (৳) · Desktop 1440px</text>
+    <text x="275" y="124" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="14" font-weight="400">Minimal Luxe (Cool Porcelain #F8F9FA) · BDT (৳) · Desktop 1440px</text>
     <text x="1360" y="106" text-anchor="end" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">GRID: 12 COL · MAX 1280PX · GUTTER 24PX</text>
     <text x="1360" y="126" text-anchor="end" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">RADIUS: 2PX / 4PX · MOTION: 150-320MS EASE-OUT</text>
     <line x1="80" y1="156" x2="1360" y2="156" stroke="#DCE0E6" stroke-width="1"/>
@@ -67,15 +67,28 @@
     </g>
     <g id="Swatch-accent-hover">
       <rect x="296" y="408" width="200" height="128" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
-      <rect x="296" y="408" width="200" height="76" fill="#2A2A2A"/>
+      <rect x="296" y="408" width="200" height="76" fill="#333333"/>
       <text x="308" y="506" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/accent/hover</text>
-      <text x="308" y="524" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">#2A2A2A</text>
+      <text x="308" y="524" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">#333333</text>
     </g>
     <g id="Swatch-accent-primary">
       <rect x="512" y="408" width="200" height="128" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
       <rect x="512" y="408" width="200" height="76" fill="#1F1F1F"/>
       <text x="524" y="506" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/accent/primary</text>
       <text x="524" y="524" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">#1F1F1F</text>
+    </g>
+    <g id="Swatch-accent-gold">
+      <rect x="728" y="408" width="200" height="128" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
+      <rect x="728" y="408" width="200" height="76" fill="#C8A96B"/>
+      <text x="740" y="506" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/accent/gold</text>
+      <text x="740" y="524" fill="#947438" font-family="JetBrains Mono, monospace" font-size="11">#C8A96B</text>
+    </g>
+    <g id="Swatch-bg-card">
+      <rect x="944" y="408" width="200" height="128" rx="2" fill="#F8F9FA" stroke="#DCE0E6"/>
+      <rect x="944" y="408" width="200" height="76" fill="#FFFFFF"/>
+      <line x1="944" y1="484" x2="1144" y2="484" stroke="#DCE0E6"/>
+      <text x="956" y="506" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">color/bg/card</text>
+      <text x="956" y="524" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">#FFFFFF</text>
     </g>
 
     <!-- Semantic Statuses -->
@@ -146,11 +159,11 @@
     <!-- Primary -->
     <rect x="80" y="1192" width="164" height="44" rx="2" fill="#1F1F1F"/>
     <text x="162" y="1219" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="14" font-weight="500">Order Now (COD)</text>
-    <!-- Secondary -->
-    <rect x="260" y="1192" width="136" height="44" rx="2" fill="#F8F9FA" stroke="#1F1F1F"/>
-    <text x="328" y="1219" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="500">Add to Cart</text>
-    <!-- Ghost -->
-    <rect x="412" y="1192" width="108" height="44" rx="2" fill="#E4E7EC"/>
+    <!-- Gold Accent CTA -->
+    <rect x="260" y="1192" width="136" height="44" rx="2" fill="#C8A96B"/>
+    <text x="328" y="1219" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="600">Add to Bag</text>
+    <!-- Secondary Outline -->
+    <rect x="412" y="1192" width="108" height="44" rx="2" fill="#F8F9FA" stroke="#1F1F1F"/>
     <text x="466" y="1219" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14" font-weight="500">View All →</text>
     <!-- Disabled -->
     <rect x="536" y="1192" width="112" height="44" rx="2" fill="#1F1F1F" fill-opacity="0.4"/>
@@ -185,7 +198,7 @@
     <text x="92" y="1391" fill="#8C969E" font-family="Inter, sans-serif" font-size="14">Full Name (e.g. Tanvir Ahmed)</text>
 
     <text x="380" y="1354" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Focused Input (BD Phone)</text>
-    <rect x="380" y="1364" width="280" height="44" rx="2" fill="#F8F9FA" stroke="#1F1F1F" stroke-width="1.5"/>
+    <rect x="380" y="1364" width="280" height="44" rx="2" fill="#FFFFFF" stroke="#C8A96B" stroke-width="1.5"/>
     <text x="392" y="1391" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14">01712345678</text>
 
     <!-- Status Badges -->
@@ -215,8 +228,8 @@
     <!-- Card 1 -->
     <g id="Product-Card-1">
       <rect x="80" y="1520" width="302" height="160" rx="2" fill="#EEF0F3"/>
-      <rect x="92" y="1532" width="42" height="20" rx="2" fill="#1F1F1F"/>
-      <text x="113" y="1546" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="10" font-weight="500">NEW</text>
+      <rect x="92" y="1532" width="42" height="20" rx="2" fill="#C8A96B"/>
+      <text x="113" y="1546" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="600">NEW</text>
       <circle cx="231" cy="1600" r="36" fill="#F8F9FA" stroke="#1F1F1F" stroke-width="4"/>
       <text x="80" y="1700" fill="#8C969E" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">WATCHES</text>
       <text x="80" y="1720" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="14">Minimalist Matte Chrono 40mm</text>
