@@ -1,99 +1,98 @@
 <svg width="1440" height="1220" viewBox="0 0 1440 1220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect id="Account-Addresses-Desktop-BG" width="1440" height="1220" fill="#FFFFFF"/>
+  <rect id="Account-Addresses-Desktop-BG" width="1440" height="1220" fill="#F8F9FA"/>
 
   <g id="01-Navbar">
-    <rect width="1440" height="36" fill="#111111"/>
-    <text x="720" y="22" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
-    <rect y="36" width="1440" height="72" fill="#FFFFFF"/>
-    <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
-    <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
-    <text x="530" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Watches</text>
-    <text x="630" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="724" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
-    <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
-    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="1300" cy="68" r="4.5" stroke="#111111" stroke-width="1.5"/>
-    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#111111" stroke-width="1.5"/>
-    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#111111" stroke-width="1.5"/>
-    <circle cx="1354" cy="62" r="8" fill="#111111"/>
-    <text x="1354" y="66" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">2</text>
+    <rect width="1440" height="36" fill="#1F1F1F"/>
+    <text x="720" y="22" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.4">NATIONWIDE BANGLADESH DELIVERY  ·  CASH ON DELIVERY  ·  FREE SHIPPING OVER ৳ 3,000</text>
+    <rect y="36" width="1440" height="72" fill="#F8F9FA"/>
+    <line x1="0" y1="108" x2="1440" y2="108" stroke="#DCE0E6"/>
+    <text x="80" y="79" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="530" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="630" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="724" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Gifts</text>
+    <circle cx="1256" cy="71" r="7" stroke="#1F1F1F" stroke-width="1.5"/>
+    <line x1="1261" y1="76" x2="1266" y2="81" stroke="#1F1F1F" stroke-width="1.5"/>
+    <circle cx="1300" cy="68" r="4.5" stroke="#1F1F1F" stroke-width="1.5"/>
+    <path d="M1291 81C1291 76.5 1295 74 1300 74C1305 74 1309 76.5 1309 81" stroke="#1F1F1F" stroke-width="1.5"/>
+    <rect x="1334" y="65" width="16" height="15" rx="1.5" stroke="#1F1F1F" stroke-width="1.5"/>
+    <path d="M1338 65V62C1338 59.8 1339.8 58 1342 58C1344.2 58 1346 59.8 1346 62V65" stroke="#1F1F1F" stroke-width="1.5"/>
+    <circle cx="1354" cy="62" r="8" fill="#C8A96B"/>
+    <text x="1354" y="66" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="700">2</text>
   </g>
 
   <g id="02-Account-Addresses" transform="translate(0, 148)">
-    <text x="80" y="24" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">Home  /  Account  /  Saved BD Addresses</text>
-    <text x="80" y="64" fill="#111111" font-family="Inter, sans-serif" font-size="28" font-weight="500">My Account</text>
+    <text x="80" y="24" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Home  /  Account  /  Saved BD Addresses</text>
+    <text x="80" y="64" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="28" font-weight="500">My Account</text>
 
     <!-- Left Sidebar -->
-    <rect x="80" y="96" width="260" height="480" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
-    <text x="104" y="136" fill="#111111" font-family="Inter, sans-serif" font-size="16" font-weight="500">Tanvir Ahmed</text>
-    <text x="104" y="156" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">tanvir@example.com</text>
-    <line x1="104" y1="180" x2="316" y2="180" stroke="#E5E5E5"/>
+    <rect x="80" y="96" width="260" height="480" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="104" y="136" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="16" font-weight="500">Tanvir Ahmed</text>
+    <text x="104" y="156" fill="#8C969E" font-family="Inter, sans-serif" font-size="12">tanvir@example.com</text>
+    <line x1="104" y1="180" x2="316" y2="180" stroke="#DCE0E6"/>
 
-    <text x="120" y="225" fill="#525252" font-family="Inter, sans-serif" font-size="13">Order History (3)</text>
-    <rect x="104" y="246" width="212" height="40" rx="2" fill="#111111"/>
-    <text x="120" y="271" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">Saved BD Addresses (2)</text>
-    <text x="120" y="316" fill="#525252" font-family="Inter, sans-serif" font-size="13">Profile &amp; Password</text>
+    <text x="120" y="225" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Order History (3)</text>
+    <rect x="104" y="246" width="212" height="40" rx="2" fill="#1F1F1F" stroke="#C8A96B" stroke-width="1.5"/>
+    <text x="120" y="271" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="13" font-weight="500">Saved BD Addresses (2)</text>
+    <text x="120" y="316" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">Profile &amp; Password</text>
     <text x="120" y="368" fill="#B91C1C" font-family="Inter, sans-serif" font-size="13">Sign Out</text>
 
     <!-- Right Content: Saved BD Addresses -->
-    <text x="380" y="118" fill="#111111" font-family="Inter, sans-serif" font-size="20" font-weight="500">Saved Bangladesh Addresses</text>
-    <rect x="1172" y="92" width="188" height="40" rx="2" fill="#111111"/>
-    <text x="1266" y="117" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="500">+ Add New Address</text>
+    <text x="380" y="118" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="20" font-weight="500">Saved Bangladesh Addresses</text>
+    <rect x="1172" y="92" width="188" height="40" rx="2" fill="#1F1F1F"/>
+    <text x="1266" y="117" text-anchor="middle" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="13" font-weight="500">+ Add New Address</text>
 
     <!-- Address Card 1 (Default) -->
-    <rect x="380" y="152" width="478" height="176" rx="2" fill="#F7F7F7" stroke="#111111" stroke-width="1.5"/>
-    <rect x="404" y="176" width="68" height="22" rx="2" fill="#111111"/>
-    <text x="438" y="191" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="500">DEFAULT</text>
-    <text x="484" y="192" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Home — Dhaka Metro</text>
-    <text x="404" y="226" fill="#111111" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
-    <text x="404" y="248" fill="#525252" font-family="Inter, sans-serif" font-size="13">House 14, Road 6, Dhanmondi, Dhaka 1205</text>
-    <text x="404" y="270" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">ZONE: INSIDE DHAKA (৳ 70)</text>
-    <text x="404" y="306" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit   ·   <tspan fill="#B91C1C">Remove</tspan></text>
+    <rect x="380" y="152" width="478" height="176" rx="2" fill="#FFFFFF" stroke="#C8A96B" stroke-width="1.5"/>
+    <rect x="404" y="176" width="68" height="22" rx="2" fill="#C8A96B"/>
+    <text x="438" y="191" text-anchor="middle" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="10" font-weight="600">DEFAULT</text>
+    <text x="484" y="192" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Home — Dhaka Metro</text>
+    <text x="404" y="226" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
+    <text x="404" y="248" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">House 14, Road 6, Dhanmondi, Dhaka 1205</text>
+    <text x="404" y="270" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">ZONE: INSIDE DHAKA (৳ 70)</text>
+    <text x="404" y="306" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Edit   ·   <tspan fill="#B91C1C">Remove</tspan></text>
 
     <!-- Address Card 2 -->
-    <rect x="882" y="152" width="478" height="176" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="906" y="192" fill="#111111" font-family="Inter, sans-serif" font-size="15" font-weight="500">Family — Chattogram</text>
-    <text x="906" y="226" fill="#111111" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
-    <text x="906" y="248" fill="#525252" font-family="Inter, sans-serif" font-size="13">22 Nasirabad Housing Society, Chattogram</text>
-    <text x="906" y="270" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">ZONE: OUTSIDE DHAKA (৳ 130)</text>
-    <text x="906" y="306" fill="#111111" font-family="Inter, sans-serif" font-size="12" font-weight="500">Set as Default   ·   Edit   ·   <tspan fill="#B91C1C">Remove</tspan></text>
+    <rect x="882" y="152" width="478" height="176" rx="2" fill="#FFFFFF" stroke="#DCE0E6"/>
+    <text x="906" y="192" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="15" font-weight="500">Family — Chattogram</text>
+    <text x="906" y="226" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="13">Tanvir Ahmed · 01712345678</text>
+    <text x="906" y="248" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="13">22 Nasirabad Housing Society, Chattogram</text>
+    <text x="906" y="270" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="11">ZONE: OUTSIDE DHAKA (৳ 130)</text>
+    <text x="906" y="306" fill="#1F1F1F" font-family="Inter, sans-serif" font-size="12" font-weight="500">Set as Default   ·   Edit   ·   <tspan fill="#B91C1C">Remove</tspan></text>
   </g>
 
   <g id="03-Footer" transform="translate(0, 820)">
-    <rect width="1440" height="400" fill="#111111"/>
-    <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
-    <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp;</text>
-    <text x="80" y="128" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">gift essentials curated for Bangladesh.</text>
-    <text x="80" y="168" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
-    <text x="80" y="190" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
-    <text x="80" y="226" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
+    <rect width="1440" height="400" fill="#1F1F1F"/>
+    <text x="80" y="76" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
+    <text x="80" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Minimalist watches, glasses, t-shirts &amp;</text>
+    <text x="80" y="128" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">gift essentials curated for Bangladesh.</text>
+    <text x="80" y="168" fill="#CBD2D9" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
+    <text x="80" y="190" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
+    <text x="80" y="226" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
 
-    <text x="520" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">SHOP</text>
-    <text x="520" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">All Products</text>
-    <text x="520" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches</text>
-    <text x="520" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="520" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="520" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Gift Products</text>
+    <text x="520" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">SHOP</text>
+    <text x="520" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">All Products</text>
+    <text x="520" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Watches</text>
+    <text x="520" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="520" y="192" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="520" y="220" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Gift Products</text>
 
-    <text x="790" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
-    <text x="790" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order</text>
-    <text x="790" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD Rates</text>
-    <text x="790" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">7-Day Easy Exchange</text>
-    <text x="790" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Size &amp; Fit Guide</text>
-    <text x="790" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">FAQ &amp; Contact</text>
+    <text x="790" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
+    <text x="790" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Track Order</text>
+    <text x="790" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Delivery &amp; COD Rates</text>
+    <text x="790" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">7-Day Easy Exchange</text>
+    <text x="790" y="192" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Size &amp; Fit Guide</text>
+    <text x="790" y="220" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">FAQ &amp; Contact</text>
 
-    <text x="1080" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">ACCOUNT &amp; PAYMENT</text>
-    <text x="1080" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Sign In / Register</text>
-    <text x="1080" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses</text>
-    <text x="1080" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Order History</text>
-    <rect x="1080" y="190" width="208" height="30" rx="2" fill="#1F1F1F" stroke="#2A2A2A"/>
-    <text x="1184" y="209" text-anchor="middle" fill="#D4D4D4" font-family="JetBrains Mono, monospace" font-size="11">CASH ON DELIVERY (COD)</text>
-    <text x="1080" y="242" fill="#525252" font-family="Inter, sans-serif" font-size="11">bKash · Nagad · Card (Coming Soon)</text>
+    <text x="1080" y="74" fill="#F8F9FA" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">ACCOUNT &amp; PAYMENT</text>
+    <text x="1080" y="108" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Sign In / Register</text>
+    <text x="1080" y="136" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Saved BD Addresses</text>
+    <text x="1080" y="164" fill="#8C969E" font-family="Inter, sans-serif" font-size="13">Order History</text>
+    <text x="1080" y="196" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="11">bKash · Nagad · Card (Coming Soon)</text>
 
     <line x1="80" y1="316" x2="1360" y2="316" stroke="#2A2A2A"/>
-    <text x="80" y="356" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh. All rights reserved.</text>
-    <text x="720" y="356" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="12">Privacy Policy  ·  Terms of Service</text>
-    <text x="1360" y="356" text-anchor="end" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · INSIDE DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
+    <text x="80" y="356" fill="#8C969E" font-family="Inter, sans-serif" font-size="12">© 2026 SHOKH Bangladesh. All rights reserved.</text>
+    <text x="720" y="356" text-anchor="middle" fill="#6E7C7C" font-family="Inter, sans-serif" font-size="12">Privacy Policy  ·  Terms of Service</text>
+    <text x="1360" y="356" text-anchor="end" fill="#8C969E" font-family="JetBrains Mono, monospace" font-size="12">BDT (৳) · INSIDE DHAKA ৳ 70 · OUTSIDE ৳ 130</text>
   </g>
 </svg>
