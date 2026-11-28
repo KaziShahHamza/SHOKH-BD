@@ -16,7 +16,7 @@
 ## 2. Storefront Pages
 
 ### 2.1 Landing Page (`/`)
-1. **Hero Section:** High-contrast editorial imagery, concise headline, short subcopy, primary CTA (`Shop Collection`) + secondary link (`New Arrivals`).
+1. **Hero Slider:** Full-bleed auto-sliding hero (4 slides with smooth crossfade, `← / →` controls, progress bars, dark gradient scrim for readability, primary CTA).
 2. **Category Showcase Grid:** 4-item minimalist grid (`Watches`, `Glasses`, `T-Shirts`, `Gift`) with clean typography overlays and subtle image scale on hover.
 3. **Featured / New Arrivals:** 4-column desktop / 2-column mobile product grid with secondary image crossfade on hover, BDT price (`৳`), and quick-view / quick-add affordance.
 4. **Value & Delivery Strip:** 4 minimal icon+text items (*All-Bangladesh Delivery*, *Cash on Delivery*, *Quality Checked*, *Easy Support*).
