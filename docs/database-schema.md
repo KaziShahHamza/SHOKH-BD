@@ -39,7 +39,7 @@
 | `id` | `string` | Primary Key |
 | `title` | `string` | Required, text-indexed |
 | `slug` | `string` | Unique, URL-friendly |
-| `category` | `enum` | `'watches' \| 'glasses' \| 'crocs' \| 'tshirts' \| 'hobby'` (indexed) |
+| `category` | `enum` | `'watches' \| 'glasses' \| 'tshirts' \| 'gift'` (indexed) |
 | `description` | `string` | Markdown / plain text |
 | `basePrice` | `number` | Integer in BDT (৳) |
 | `compareAtPrice` | `number?` | Optional strikethrough MRP in BDT |

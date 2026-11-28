@@ -1,7 +1,7 @@
 # SHOKH — Project Plan & Roadmap
 
 ## 1. Vision
-Build **SHOKH**, a fast, reliable, modern minimalist online store for Bangladesh selling five distinct product categories (**Watches, Glasses, Crocs, T-Shirts, Hobby Products**). Start lean with an MVP optimized for conversion and operational ease (COD + Admin Panel + Stock Management), while keeping the codebase cleanly architected to scale into digital payments, courier APIs, and PostgreSQL/Supabase.
+Build **SHOKH**, a fast, reliable, modern minimalist online store for Bangladesh selling four distinct product categories (**Watches, Glasses, T-Shirts, Gift Products**). Start lean with an MVP optimized for conversion and operational ease (COD + Admin Panel + Stock Management), while keeping the codebase cleanly architected to scale into digital payments, courier APIs, and PostgreSQL/Supabase.
 
 ## 2. Target Market & Operational Context
 - **Geography:** All 64 districts / 8 divisions of Bangladesh.

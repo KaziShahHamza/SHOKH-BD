@@ -13,11 +13,10 @@
     <line x1="0" y1="108" x2="1440" y2="108" stroke="#E5E5E5"/>
     <text x="80" y="79" fill="#111111" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
 
-    <text x="486" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
-    <text x="576" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="660" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs</text>
-    <text x="734" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby</text>
+    <text x="530" y="77" fill="#111111" font-family="Inter, sans-serif" font-size="13" font-weight="500">Watches</text>
+    <text x="630" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses</text>
+    <text x="724" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="820" y="77" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift</text>
 
     <circle cx="1256" cy="71" r="7" stroke="#111111" stroke-width="1.5"/>
     <line x1="1261" y1="76" x2="1266" y2="81" stroke="#111111" stroke-width="1.5"/>
@@ -46,13 +45,13 @@
     <text x="347" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">Glasses (14)</text>
 
     <rect x="410" y="224" width="96" height="36" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="458" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">Crocs (12)</text>
+    <text x="458" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts (18)</text>
 
     <rect x="516" y="224" width="110" height="36" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
     <text x="571" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">T-Shirts (24)</text>
 
     <rect x="636" y="224" width="98" height="36" rx="2" fill="#FFFFFF" stroke="#E5E5E5"/>
-    <text x="685" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">Hobby (16)</text>
+    <text x="685" y="246" text-anchor="middle" fill="#525252" font-family="Inter, sans-serif" font-size="13">Gift (16)</text>
   </g>
 
   <!-- 04. FILTER & SORT BAR -->
@@ -120,7 +119,7 @@
     <g id="Grid-Card-4">
       <rect id="IMG-Grid-4" x="1058" y="388" width="302" height="376" rx="2" fill="#F7F7F7" stroke="#E5E5E5"/>
       <text x="1209" y="576" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT IMAGE (4:5)</text>
-      <text x="1058" y="788" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">CROCS</text>
+      <text x="1058" y="788" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">GIFT</text>
       <text x="1058" y="810" fill="#111111" font-family="Inter, sans-serif" font-size="14">Classic Monochrome Clog — Bone</text>
       <text x="1058" y="832" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,550</text>
     </g>
@@ -131,7 +130,7 @@
       <text x="231" y="1080" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT IMAGE (4:5)</text>
       <rect x="92" y="904" width="64" height="22" rx="2" fill="#FFFBEB"/>
       <text x="124" y="919" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="10" font-weight="500">3 LEFT</text>
-      <text x="80" y="1292" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">HOBBY</text>
+      <text x="80" y="1292" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">GIFT</text>
       <text x="80" y="1314" fill="#111111" font-family="Inter, sans-serif" font-size="14">1:64 Diecast Collector GT</text>
       <text x="80" y="1336" fill="#111111" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,650</text>
     </g>
@@ -157,7 +156,7 @@
       <text x="1209" y="1080" text-anchor="middle" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="11">PRODUCT IMAGE (4:5)</text>
       <rect x="1070" y="904" width="68" height="22" rx="2" fill="#FEF2F2"/>
       <text x="1104" y="919" text-anchor="middle" fill="#B91C1C" font-family="Inter, sans-serif" font-size="10" font-weight="500">SOLD OUT</text>
-      <text x="1058" y="1292" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">HOBBY</text>
+      <text x="1058" y="1292" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">GIFT</text>
       <text x="1058" y="1314" fill="#111111" font-family="Inter, sans-serif" font-size="14">Speedcube Magnetic 3x3 Pro</text>
       <text x="1058" y="1336" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="14" font-weight="500">৳ 1,250</text>
     </g>
@@ -175,7 +174,7 @@
     <rect width="1440" height="400" fill="#111111"/>
     <text x="80" y="76" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="600" letter-spacing="1.8">SHOKH</text>
     <text x="80" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Minimalist watches, eyewear, footwear, tees &amp;</text>
-    <text x="80" y="128" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">hobby essentials curated for Bangladesh.</text>
+    <text x="80" y="128" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">gift essentials curated for Bangladesh.</text>
     <text x="80" y="168" fill="#D4D4D4" font-family="Inter, sans-serif" font-size="12">Dhaka, Bangladesh · 64 Districts Delivery</text>
     <text x="80" y="190" fill="#8A8A8A" font-family="JetBrains Mono, monospace" font-size="12">support@shokh.bd  ·  +880 1XXX-XXXXXX</text>
     <text x="80" y="226" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="500">Instagram   ·   Facebook   ·   YouTube</text>
@@ -184,9 +183,8 @@
     <text x="520" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">All Products</text>
     <text x="520" y="136" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Watches</text>
     <text x="520" y="164" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Glasses</text>
-    <text x="520" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Crocs</text>
-    <text x="520" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
-    <text x="520" y="248" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Hobby Products</text>
+    <text x="520" y="192" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">T-Shirts</text>
+    <text x="520" y="220" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Gift Products</text>
 
     <text x="790" y="74" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2">CUSTOMER CARE</text>
     <text x="790" y="108" fill="#8A8A8A" font-family="Inter, sans-serif" font-size="13">Track Order</text>

@@ -8,7 +8,7 @@
 ## 1. Visual Philosophy
 - **Aesthetic:** Clean Monochrome Minimalist (COS / Uniqlo inspired).
 - **Hierarchy via Space & Typography:** Generous whitespace, sharp-to-subtle corners (`2px–4px`), `1px` hairline borders (`#E5E5E5`) instead of heavy drop shadows.
-- **Product-First:** Neutral `#F7F7F7` image containers let Watches, Glasses, Crocs, T-Shirts, and Hobby Products stand out cleanly.
+- **Product-First:** Neutral `#F7F7F7` image containers let Watches, Glasses, T-Shirts, and Gift Products stand out cleanly.
 - **Currency Formatting:** Always use `৳` prefix with `font-variant-numeric: tabular-nums` (e.g., `৳ 1,850`).
 
 ---

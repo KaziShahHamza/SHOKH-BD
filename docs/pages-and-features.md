@@ -3,13 +3,13 @@
 ## 1. Global Layout Elements
 - **Top Announcement Bar (Optional / Subtle):** e.g., *"Nationwide Bangladesh Delivery • Cash on Delivery Available"*.
 - **Sticky Minimal Navbar:**
-  - Desktop: Brand Wordmark (left), Category Links (`Watches`, `Glasses`, `Crocs`, `T-Shirts`, `Hobby`) (center), Search Trigger, Account Icon Dropdown, Cart Icon with item count badge (right).
+  - Desktop: Brand Wordmark (left), Category Links (`Watches`, `Glasses`, `T-Shirts`, `Gift`) (center), Search Trigger, Account Icon Dropdown, Cart Icon with item count badge (right).
   - **Account Icon Dropdown:**
     - *Logged Out:* `Sign In` (`/login`), `Create Account` (`/signup`), `Track Guest Order →` (`/track-order`).
     - *Logged In:* Buyer Name & BD Phone header, `My Orders` (`/account`), `Saved BD Addresses` (`/account/addresses`), `Profile & Password` (`/account/profile`), `Track an Order` (`/track-order`), `Admin Console` (`/admin`, if `ADMIN`), `Sign Out`.
   - Mobile: Hamburger Menu (left), Brand Wordmark (center), Search + Cart Icon (right). Slide-over navigation drawer with categories and the same Account/Guest Track Order links.
 - **Shopping Cart (`/cart`) & Quick Slide-Over Drawer:** Dedicated `/cart` page with Navbar & Footer (plus quick slide-over bag access); displays items, variant tags, quantity +/- controls, item removal, subtotal in `৳`, free-shipping progress indicator, and `Proceed to Checkout` CTA.
-- **Minimal Footer:** Brand statement, 5 category links, Track Order link, Support contact (Gmail/WhatsApp), Delivery & Return Policy links.
+- **Minimal Footer:** Brand statement, 4 category links, Track Order link, Support contact (Gmail/WhatsApp), Delivery & Return Policy links.
 
 ---
 
@@ -17,10 +17,10 @@
 
 ### 2.1 Landing Page (`/`)
 1. **Hero Section:** High-contrast editorial imagery, concise headline, short subcopy, primary CTA (`Shop Collection`) + secondary link (`New Arrivals`).
-2. **Category Showcase Grid:** 5-item minimalist grid (`Watches`, `Glasses`, `Crocs`, `T-Shirts`, `Hobby`) with clean typography overlays and subtle image scale on hover.
+2. **Category Showcase Grid:** 4-item minimalist grid (`Watches`, `Glasses`, `T-Shirts`, `Gift`) with clean typography overlays and subtle image scale on hover.
 3. **Featured / New Arrivals:** 4-column desktop / 2-column mobile product grid with secondary image crossfade on hover, BDT price (`৳`), and quick-view / quick-add affordance.
 4. **Value & Delivery Strip:** 4 minimal icon+text items (*All-Bangladesh Delivery*, *Cash on Delivery*, *Quality Checked*, *Easy Support*).
-5. **Curated Spotlight / Video Banner (Optional):** Highlighting a flagship watch/hobby item or brand story.
+5. **Curated Spotlight / Video Banner (Optional):** Highlighting a flagship watch/gift item or brand story.
 
 ### 2.2 Products / Catalog Page (`/products` & `/products/[category]`)
 - **Header:** Category title, product count, active filter chips.

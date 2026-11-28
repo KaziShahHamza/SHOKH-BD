@@ -18,7 +18,9 @@
 | :- | :--- | :--- | :---: | :---: | :--- | :--- |
 | 0 | **Design System Sheet** (Colors, Fonts, Buttons, Inputs, Badges, Cards) | — | ✅ | ✅ | `Approved` | Synced 1:1 with `design/tokens.json` (`00-design-system-*.svg`) |
 | 0b | **Navbar Account Dropdown** (Logged-out + Logged-in + Guest Track Order) | — | ✅ | ✅ | `Approved` | Desktop dropdown + Mobile menu drawer (`00b-navbar-account-dropdown.svg`) |
-| 1 | **Landing Page** | `/` | ✅ | ✅ | `Approved` | Hero, Bento Categories, Featured, Video Spotlight, Footer (`01-landing-*.svg`) |
+| 1 | **Landing Page (v1)** | `/` | ✅ | ✅ | `Approved` | Hero, Bento Categories, Featured, Video Spotlight, Footer (`01-landing-*.svg`) |
+| 1b | **Landing Page (v2 — Full-Bleed Slider)** | `/` | 🟡 | 🟡 | `In Figma` | 4-slide auto-sliding full-bleed hero, 4-category row (`01b-landing-v2-*.svg`) |
+| 1c | **Landing Page (v3 — Split Lookbook Slider)** | `/` | 🟡 | 🟡 | `In Figma` | Asymmetric split hero + slide switcher + next-slide peek (`01c-landing-v3-*.svg`) |
 | 2 | **Products / Catalog Page** | `/products` | ✅ | ✅ | `Approved` | Category tabs, Filters, Sort, 4-col Desktop / 2-col Mobile grid (`02-products-*.svg`) |
 | 3 | **Product Detail Page** | `/product/[slug]` | ✅ | ✅ | `Approved` | Gallery + YouTube embed, Variants, Stock, COD CTA (`03-product-detail-*.svg`) |
 | 4a | **Checkout Page** | `/checkout` | ✅ | ✅ | `Approved` | Guest + Logged-in, BD Divisions/Districts, 2-tier fee, COD summary (`04a-checkout-*.svg`) |

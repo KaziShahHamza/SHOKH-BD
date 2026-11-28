@@ -1,6 +1,6 @@
 # SHOKH — Bangladesh Minimalist E-Commerce Store
 
-**SHOKH** is a modern, minimalist online store built for Bangladesh selling **Watches, Glasses, Crocs, T-Shirts, and Hobby Products**, featuring nationwide Cash on Delivery (COD), Guest & Logged-in Checkout, Cloudinary + YouTube product media, and an integrated Admin Panel.
+**SHOKH** is a modern, minimalist online store built for Bangladesh selling **Watches, Glasses, T-Shirts, and Gift Products**, featuring nationwide Cash on Delivery (COD), Guest & Logged-in Checkout, Cloudinary + YouTube product media, and an integrated Admin Panel.
 
 ## Documentation
 
